@@ -29,9 +29,9 @@ export default function DanaDesa({ danadesa }) {
     let [namaDesa, setNamaDesa] = useState("Alang Alang");
 
     useEffect(() => {
-        namaDesa = localStorage.getItem("namaDesa");
-        setNamaDesa(namaDesa);
-    })
+        const storedNamaDesa = localStorage.getItem("namaDesa");
+        setNamaDesa(storedNamaDesa);
+    }, [])
     
     const [totalPendapatanAnggaran, totalPendapatanRealisasi, totalPendapatanSelisih, totalPendapatanPresentase] = getTotalData(danadesa.pendapatan);
     const [totalBelanjaAnggaran, totalBelanjaRealisasi, totalBelanjaSelisih, totalBelanjaPresentase] = getTotalData(danadesa.belanja);

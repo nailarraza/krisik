@@ -14,10 +14,9 @@ export default function Foto({ photos }) {
     let [namaDesa, setNamaDesa] = useState("Alang Alang");
 
     useEffect(() => {
-        namaDesa = localStorage.getItem("namaDesa");
-        setNamaDesa(namaDesa);
-    })
-    
+        const storedNamaDesa = localStorage.getItem("namaDesa");
+        setNamaDesa(storedNamaDesa);
+    }, []);    
     const [currentImage, setCurrentImage] = useState(0);
     const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
