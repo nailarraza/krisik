@@ -44,7 +44,7 @@ export default function Sejarah({ posts }) {
         <div className="container my-5">
           <div className="col-lg-10 mx-auto">
             <div className="card bg-card-primary border-0 shadow-sm px-3 py-3 mb-4">
-              <h3 className="text-color-primary">Visi Dan Misi</h3>
+              <h3 className="text-color-primary">Visi Misi</h3>
               <Image
                 src={imgDesa}
                 alt="Desa"
@@ -52,45 +52,26 @@ export default function Sejarah({ posts }) {
               />
               <h5 className="mt-4 text-color-primary">Visi</h5>
               <p className="text-color-secondary">
-                “ Terwujudnya Desa {namaDesa} sebagai Desa yang Mandiri melalui
-                Pengembangan Ekonomi Berbasis Potensi Sumber Daya Alam untuk
-                mencapai masyarakat makmur dan agamis ”
+                “ Menuju Desa Krisik yang lebih maju, berbudaya, dan religius menuju masyarakat yang mandiri dan sejahtera ”
               </p>
               <h5 className="text-color-primary">Misi</h5>
               <p className="text-color-secondary mb-2">
-                1. Mewujudkan dan mengembangkan kegiatan keagamaan untuk
-                menambah keimanan dan ketaqwaan kepada Tuhan Yang Maha Esa.
+                1. Bersama masyarakat memperkuat kelembagaan daesa yang ada untuk melayani masyarakat secara optimal
               </p>
               <p className="text-color-secondary mb-2">
-                2. Mewujudkan dan mendorong terjadinya usaha-usaha kerukunan
-                antar dan intern warga masyarakat yang disebabkan karena adanya
-                perbedaan agama, keyakinan, organisasi, dan lainnya dalam
-                suasana saling menghargai dan menghormati.
+                2. Bersama masyarakat dan kelembagaan desa bersama menyelenggarakan pemerintahan desa 
+                yang partisipatif
               </p>
               <p className="text-color-secondary mb-2">
-                3. Membangun dan meningkatkan hasil perkebunan dengan jalan
-                penataan pengairan dan pemupukan.
+                3. Melaksanakan program pemberdayaan masyarakat desa
               </p>
               <p className="text-color-secondary mb-2">
-                4. Menata Pemerintahan Desa {namaDesa} yang kompak dan
-                bertanggung jawab dalam mengemban amanat masyarakat.
+                4. Bersama masyarakat dan kelembagaan memberdayakan masyarakat untuk meningkatkan kesejahteraan masyarakat
               </p>
               <p className="text-color-secondary mb-2">
-                5. Meningkatkan pelayanan masyarakat secara terpadu dan serius.
+                5. Meningkatkan kesejahteraan aparatur pemerintah desa
               </p>
-              <p className="text-color-secondary mb-2">
-                6. Membangun dan mendorong majunya bidang pendidikan baik formal
-                maupun informal yang mudah diakses dan dinikmati seluruh warga
-                masyarakat tanpa terkecuali yang mampu menghasilkan insan
-                intelektual, inovatif dan enterpreneur (wirausahawan).
-              </p>
-              <p className="text-color-secondary mb-2">
-                7. Meningkatkan SDM masyarakat agat lebih mampu dalam mengakses
-                Computer dan Internet.
-              </p>
-              <p className="text-color-secondary mb-2">
-                8. Meningkatkan kesehatan masyarakat
-              </p>
+              
             </div>
           </div>
         </div>

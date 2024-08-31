@@ -58,19 +58,10 @@ export default function Sejarah({ posts }) {
                             alt="Foto Desa" 
                             className="img-fluid rounded my-3"/>
                             <h5 className="mt-4 text-color-primary">Uraian Singkat Profil Desa</h5>
-                            <p className="text-color-secondary">Desa {namaDesa} merupakan Desa yang terletak di dataran rendah
-                                yang sebelah selatannya terdapat Selat Madura, tinggi dari permukaan Pantai yaitu 2 M.
-                                Selain
-                                itu Desa {namaDesa} memiliki Luas 113,48 Ha. Jarak tempuh dari Desa menuju Kantor Kecamatan
-                                yaitu 2 KM.
-                                Desa {namaDesa} terdiri dari 7 dusun, 7 RW dan 32 Rt dengan jumlah penduduk sebanyak 6.506
-                                Jiwa,
-                                dengan rincian Laki-laki 3.178 jiwa dan perempuan 3.328 jiwa.</p>
-                            <p className="text-color-secondary">{namaDesa} adalah salah satu Desa yang terletak di wilayah
-                                Kecamatan {namaKecamatan}, Kabupaten Bangkalan, Provinsi Jawa
-                                Timur, Indonesia. Desa alang-alang adalah Desa pintar pertama yang ada di Kabupaten
-                                Bangkalan Dengan nama Smart
-                                Village.</p>
+                            <p className="text-color-secondary">Desa Krisik, terletak di daerah pegunungan dengan cuaca yang dingin, memiliki sejarah panjang yang terkait erat dengan peternakan sapi dan pertanian sayur-mayur. Dikenal dengan keindahan alamnya, Desa Krisik juga menjadi rumah bagi air terjun Coban Lawe yang menambah daya tarik wisata alamnya. Desa ini terbagi menjadi tiga dusun, yaitu Krisik, Surokoyo, dan Ngreco, yang masing-masing memiliki
+                             karakteristik unik namun tetap berpegang pada tradisi dan kehidupan agraris yang kaya..</p>
+                            <p className="text-color-secondary">Desa Krisik adalah salah satu desa yang terletak di wilayah Kecamatan Pudak, Kabupaten Ponorogo, Provinsi Jawa Timur, Indonesia. Desa Krisik dikenal sebagai desa dengan 
+                            potensi alam dan pertanian yang kaya.</p>
                         </div>
                         <div className="card bg-card-primary border-0 shadow-sm px-3 py-3 mb-4">
                             <h3 className="text-color-primary">Peta Desa</h3>
