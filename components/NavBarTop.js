@@ -274,13 +274,13 @@ export default function NavBarTop() {
                       </a>
                     </ActiveLink>
                   </li>
-                  <li className="me-2">
+                  {/* <li className="me-2">
                     <ActiveLink activeClassName="active" href="/agenda">
                       <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
                         Agenda
                       </a>
                     </ActiveLink>
-                  </li>
+                  </li> */}
                   <li className="me-2">
                     <ActiveLink activeClassName="active" href="/produkhukum">
                       <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
@@ -338,7 +338,7 @@ export default function NavBarTop() {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown ms-lg-1">
+              {/* <li className="nav-item dropdown ms-lg-1">
                 <a
                   className="nav-link dropdown-toggle text-color-tertiary"
                   href="#"
@@ -368,7 +368,7 @@ export default function NavBarTop() {
                     </ActiveLink>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item dropdown ms-lg-1">
                 <a
                   className="nav-link dropdown-toggle text-color-tertiary"
@@ -400,7 +400,7 @@ export default function NavBarTop() {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item ms-lg-1">
+              {/* <li className="nav-item ms-lg-1">
                 <ActiveLink activeClassName="active" href="/lapak">
                   <a className="nav-link text-color-tertiary">Lapak</a>
                 </ActiveLink>
@@ -409,7 +409,7 @@ export default function NavBarTop() {
                 <ActiveLink activeClassName="active" href="/covid">
                   <a className="nav-link text-color-tertiary">Covid</a>
                 </ActiveLink>
-              </li>
+              </li> */}
               {/* <li className="nav-item ms-lg-1">
                                 <a className="nav-link" aria-current="page"><ThemeToggle /></a>
                             </li> */}
