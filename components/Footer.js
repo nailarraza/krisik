@@ -42,8 +42,8 @@ export default function Footer() {
                         <div className="col-md-8 col-lg-4 my-2 my-md-0">
                             <h4>Tentang Web</h4>
                             <Image src={imgLogo} className="img-fluid mb-2" alt="image" height={100} width={100} />
-                            <p className="text-white-80 text-15">Website Resmi Desa {namaDesa}, Kec. {namaKecamatan}, Kabupaten Bangkalan, Jawa
-                                Timur. Media komunikasi dan transparansi Pemerintah Desa</p>
+                            <p className="text-white-80 text-15">Website Resmi Desa Krisik, Kec. Pudak, Kabupaten Ponorogo, Jawa
+                                Timur. Pemerintah Desa Krisik</p>
                         </div>
                         <div className="col-md-6 col-lg-3 my-2 my-md-0">
                             <h5 className="mb-3">Kontak Desa</h5>
@@ -60,7 +60,7 @@ export default function Footer() {
                                 </li>
                                 <li className="my-2">
                                     <i className="me-2"><FaEnvelope/></i>
-                                    admin@web.id
+                                    pemdeskrisik@gmail.com
                                 </li>
                             </ul>
                         </div>
@@ -102,8 +102,8 @@ export default function Footer() {
                     <div className="row pt-3 pb-md-0 mt-4 border-top-dark">
                         <div className="col-md-8  text-center text-md-start text-15">
                             <p className="text-white-80">Copyright © 
-                                <a href="#" className="text-decoration-none text-white-80"> Desa {namaDesa}</a>. 
-                                All rights reserved
+                                <a href="#" className="text-decoration-none text-white-80"> KKN FT UMPO'24</a>. 
+                                Desa Krisik
                             </p>
                         </div>
                         <div className="col-md-4 mb-3 text-center text-md-end ">

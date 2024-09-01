@@ -83,7 +83,7 @@ export default function CarouselHome() {
                         />
                         <div className="carousel-overlay"></div>
                         <div className="carousel-caption">
-                            <h1>Selamat Datang di Web Desa {namaDesa}</h1>
+                            <h1>Selamat Datang di Webite Desa Krisik</h1>
                             <p className="carousel-text">Pusat Layanan Informasi Resmi Desa</p>
                         </div>
                     </div>
