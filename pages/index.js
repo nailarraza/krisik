@@ -147,9 +147,9 @@ export default function Home({ posts, agendas, videos, photos }) {
                   </h3>
                   <p className="text-color-secondary" id="scroll-to-statistic">
                     Website Resmi Desa {namaDesa}, Kec. {namaKecamatan},
-                    Kabupaten Bangkalan, Jawa Timur. Media komunikasi dan
+                    Kabupaten Ponorogo, Jawa Timur. Media komunikasi dan
                     transparansi Pemerintah Desa untuk seluruh masyarakat di
-                    Indonesia
+                    Desa krisik
                   </p>
                   <Link href="/sejarah">
                     <a className="btn btn-primary shadow rounded px-3 scroll-to">

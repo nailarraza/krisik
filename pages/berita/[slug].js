@@ -30,8 +30,6 @@ export default function BlogDetail({ post, randomPosts, randomAgendas }) {
     namaDesa = localStorage.getItem("namaDesa");
     setNamaDesa(namaDesa);
   });
-  // console.log(post.author)
-  // console.log(randomPosts)
   // Get 3 post
   const someRandomPosts = randomPosts.slice(0, 3);
   // Get 3 agenda
