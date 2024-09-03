@@ -328,31 +328,6 @@ export default function Home({ posts, agendas, videos, photos }) {
           </div>
         </div>
 
-        {/* <div className="container my-5 py-4">
-                    <div className="d-flex align-items-center justify-content-between mb-4">
-                        <h3 className="mb-0">Blog</h3>
-                        <Link href="/blog">
-                            <a className="text-decoration-none">All Blog
-                                <i className="ms-2"><FaArrowRight /></i>
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="row g-4">
-                        {featuredPost.map(post =>
-                            <div className="col-sm-6 col-md-6 col-lg-4" key={post.id}>
-                                <PostCard
-                                    id={post.id}
-                                    image={post.image}
-                                    title={post.title}
-                                    slug={post.slug}
-                                    author={post.author}
-                                    date={post.date}
-                                    excerpt={post.excerpt} />
-                            </div>
-                        )}
-                    </div>
-                </div> */}
-
         <div className="container my-5 py-4">
           <div className="d-flex align-items-center justify-content-between mb-4">
             <h3 className="mb-0 text-color-primary">Foto</h3>

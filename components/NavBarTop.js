@@ -92,11 +92,11 @@ export default function NavBarTop() {
                   <i className="me-2">
                     <FaPhoneAlt />
                   </i>
-                  68123456789
+                  08123456789
                 </a>
                 <span className="mx-2 text-black-50">|</span>
                 <a
-                  href="mailto:admin@gmail.com"
+                  href="mailto:pemdeskrisik@gmail.com"
                   rel="noreferrer"
                   target="_blank"
                   className="text-decoration-none text-14 text-color-tertiary"
@@ -104,7 +104,7 @@ export default function NavBarTop() {
                   <i className="me-2">
                     <FaRegEnvelope />
                   </i>
-                  desakrisik@gmail.com
+                  pemdeskrisik@gmail.com
                 </a>
               </div>
             </div>
@@ -274,13 +274,6 @@ export default function NavBarTop() {
                       </a>
                     </ActiveLink>
                   </li>
-                  {/* <li className="me-2">
-                    <ActiveLink activeClassName="active" href="/agenda">
-                      <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
-                        Agenda
-                      </a>
-                    </ActiveLink>
-                  </li> */}
                   <li className="me-2">
                     <ActiveLink activeClassName="active" href="/produkhukum">
                       <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
@@ -400,16 +393,16 @@ export default function NavBarTop() {
                   </li>
                 </ul>
               </li>
-              {/* <li className="nav-item ms-lg-1">
-                <ActiveLink activeClassName="active" href="/lapak">
-                  <a className="nav-link text-color-tertiary">Lapak</a>
-                </ActiveLink>
-              </li>
               <li className="nav-item ms-lg-1">
                 <ActiveLink activeClassName="active" href="/covid">
                   <a className="nav-link text-color-tertiary">Covid</a>
                 </ActiveLink>
-              </li> */}
+              </li>
+              <li className="nav-item ms-lg-1">
+                <ActiveLink activeClassName="active" href="/login">
+                  <a className="nav-link text-color-tertiary">Admin</a>
+                </ActiveLink>
+              </li>
               {/* <li className="nav-item ms-lg-1">
                                 <a className="nav-link" aria-current="page"><ThemeToggle /></a>
                             </li> */}
