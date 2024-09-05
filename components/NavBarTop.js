@@ -21,7 +21,7 @@ export default function NavBarTop() {
   let [namaDesa, setNamaDesa] = useState("Alang Alang");
 
   useEffect(() => {
-    setNamaDesa("krisik");
+    setNamaDesa("KRISIK");
   }, []);
 
   const [isFixedNavbar, setFixedNavbar] = useState("false");
@@ -176,10 +176,10 @@ export default function NavBarTop() {
               />{" "}
               <div>
                 <h5 className="ms-1 my-0 fw-600 text-color-primary">
-                  Desa {namaDesa}
+                  DESA {namaDesa}
                 </h5>
                 <p className="ms-1 mb-0 text-15 text-color-tertiary">
-                  Kabupaten Ponorogo
+                  KRISIK BANGKIT
                 </p>
               </div>
             </a>
@@ -400,7 +400,7 @@ export default function NavBarTop() {
               </li>
               <li className="nav-item ms-lg-1">
                 <ActiveLink activeClassName="active" href="/login">
-                  <a className="nav-link text-color-tertiary">Admin</a>
+                <button className="btn btn-primary rounded">Admin</button>
                 </ActiveLink>
               </li>
               {/* <li className="nav-item ms-lg-1">
