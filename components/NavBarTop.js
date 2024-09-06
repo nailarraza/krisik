@@ -111,28 +111,6 @@ export default function NavBarTop() {
             <div className="col-lg-6 col-sm-4">
               <div className="float-end">
                 <a
-                  href="https://web.facebook.com/"
-                  className="mx-2 text-color-tertiary"
-                  aria-label="Facebook"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="">
-                    <FaFacebook />
-                  </i>
-                </a>
-                <a
-                  href="https://twitter.com/"
-                  className="mx-2 text-color-tertiary"
-                  aria-label="Twitter"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="">
-                    <FaTwitter />
-                  </i>
-                </a>
-                <a
                   href="https://www.youtube.com/"
                   className="mx-2 text-color-tertiary"
                   aria-label="Youtube"

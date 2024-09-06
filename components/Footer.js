@@ -40,6 +40,12 @@ export default function Footer() {
                 <div className="container pt-5">
                     <div className="row">
                         
+                    <div className="col-md-8 col-lg-4 my-2 my-md-0">
+                            <h4>KRISIK BANGKIT</h4>
+                            <Image src={imgLogo} className="img-fluid" alt="image" height={100} width={100} />
+                            <p className="text-white-80 text-15">Desa Krisik, Kecamatan Pudak, Kabupaten Ponorogo, Provinsi Jawa Timur, Indonesia</p>
+                        </div>
+
                         <div className="col-md-6 col-lg-3 my-2 my-md-0">
                             <h5 className="mb-3">Kontak Desa</h5>
                             <ul className="list-unstyled text-white-80 text-decoration-none text-15">
@@ -59,10 +65,8 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
-
                         <div className="col-md-8 col-lg-4 my-2 my-md-0">
-                            <h4>Website Desa Krisik</h4>
-                            <Image src={imgLogo} className="img-fluid" alt="image" height={100} width={100} />
+                            <h4>Tentang Website Desa Krisik</h4>
                             <p className="text-white-80 text-15">Ini adalah Website Resmi Desa Krisik, Kec. Pudak, Kabupaten Ponorogo, Jawa
                                 Timur, berisikan informasi mengenai Desa Krisik. Dikelola oleh Pemerintah Desa Krisik</p>
                         </div>
@@ -108,13 +112,8 @@ export default function Footer() {
                                 Desa Krisik
                             </p>
                         </div>
+                        
                         <div className="col-md-4 mb-3 text-center text-md-end ">
-                            <a href="https://web.facebook.com/" className="mx-2 text-white-80" aria-label="Facebook" rel="noreferrer" target="_blank">
-                                <i className=""><FaFacebook /></i>
-                            </a>
-                            <a href="https://twitter.com/" className="mx-2 text-white-80" aria-label="Twitter" rel="noreferrer" target="_blank">
-                                <i className=""><FaTwitter /></i>
-                            </a>
                             <a href="https://www.youtube.com/" className="mx-2 text-white-80" aria-label="Youtube" rel="noreferrer" target="_blank">
                                 <i className=""><FaYoutube /></i>
                             </a>

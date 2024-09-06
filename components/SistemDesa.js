@@ -51,7 +51,7 @@ export default function SistemDesa() {
                 }
             `}</style>
 
-            <section>
+            {/*<section>
                 <div className="container-fluid py-5 my-5">
                     <h2 className="text-center text-color-primary">Aplikasi Desa</h2>
                     <p className="text-center text-color-secondary text-subtitle">Berikut Adalah Beberapa Aplikasi di Desa Kami</p>
@@ -143,7 +143,7 @@ export default function SistemDesa() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>*/}
         </>
         
     );
