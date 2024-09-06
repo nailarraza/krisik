@@ -18,7 +18,7 @@ import "swiper/css/navigation";
 // install Swiper modules
 SwiperCore.use([Autoplay, Navigation]);
 
-const title = "Pembangunan Desa";
+const title = "Pembangunan Desa - Desa Krisik";
 
 export default function Pembangunan({ covid }) {
     let [namaDesa, setNamaDesa] = useState("Alang Alang");
@@ -91,7 +91,7 @@ export default function Pembangunan({ covid }) {
             <Head>
                 <title>{title}</title>
                 <meta name="description" content={`Website Desa ${namaDesa}`} />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo.png" />
                 {/* <!-- Open Graph / Facebook --> */}
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />

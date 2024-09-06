@@ -84,7 +84,7 @@ export default function NavBarTop() {
             <div className="col-lg-6 col-sm-8">
               <div className="">
                 <a
-                  href="https://wa.me/68123456789"
+                  href="https://wa.me/6285156001102"
                   rel="noreferrer"
                   target="_blank"
                   className="text-decoration-none text-14 text-color-tertiary"
@@ -92,7 +92,7 @@ export default function NavBarTop() {
                   <i className="me-2">
                     <FaPhoneAlt />
                   </i>
-                  08123456789
+                  085156001102
                 </a>
                 <span className="mx-2 text-black-50">|</span>
                 <a
@@ -154,10 +154,10 @@ export default function NavBarTop() {
               />{" "}
               <div>
                 <h5 className="ms-1 my-0 fw-600 text-color-primary">
-                  DESA {namaDesa}
+                  {namaDesa} BANGKIT
                 </h5>
                 <p className="ms-1 mb-0 text-15 text-color-tertiary">
-                  KRISIK BANGKIT
+                  DESA {namaDesa}
                 </p>
               </div>
             </a>
@@ -371,11 +371,11 @@ export default function NavBarTop() {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item ms-lg-1">
+              {/*<li className="nav-item ms-lg-1">
                 <ActiveLink activeClassName="active" href="/covid">
                   <a className="nav-link text-color-tertiary">Covid</a>
                 </ActiveLink>
-              </li>
+              </li>*/}
               <li className="nav-item ms-lg-1">
                 <ActiveLink activeClassName="active" href="/login">
                 <button className="btn btn-primary rounded">Admin</button>

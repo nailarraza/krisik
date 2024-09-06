@@ -51,24 +51,25 @@ export default function Footer() {
                             <ul className="list-unstyled text-white-80 text-decoration-none text-15">
                                 <li className="my-2">
                                     <div className="d-flex">
-                                        <i className="me-2"><FaMapMarkerAlt/></i>
-                                        Desa Krisik, Kecamatan Pudak, Ponorogo, 63482
+                                        <i className="me-2"><FaInstagram/></i>
+                                        @pemdeskrisik.pudak
                                     </div>
                                 </li>
                                 <li className="my-2">
                                     <i className="me-2"><FaPhoneAlt/></i>
-                                    081 234 567 89
+                                    0885156001102
                                 </li>
                                 <li className="my-2">
                                     <i className="me-2"><FaEnvelope/></i>
-                                    pemdeskrisik@gmail.com
+                                    krisikdesa@gmail.com
                                 </li>
                             </ul>
                         </div>
                         <div className="col-md-8 col-lg-4 my-2 my-md-0">
                             <h4>Tentang Website Desa Krisik</h4>
-                            <p className="text-white-80 text-15">Ini adalah Website Resmi Desa Krisik, Kec. Pudak, Kabupaten Ponorogo, Jawa
-                                Timur, berisikan informasi mengenai Desa Krisik. Dikelola oleh Pemerintah Desa Krisik</p>
+                            <p className="text-white-80 text-15">Ini adalah Website Resmi Pemerintah Desa Krisik, Kecamatan Pudak, Kabupaten Ponorogo, Jawa
+                                Timur, </p>
+                                <p className="text-white-80 text-15">Berisikan informasi mengenai Desa Krisik yang dikelola oleh Pemuda dan Pemerintah </p>
                         </div>
                         {/*<div className="col-md-6 col-lg-3 my-2 my-md-0">
                             <h5 className="mb-3">Kontak Penting</h5>
@@ -108,8 +109,8 @@ export default function Footer() {
                     <div className="row pt-3 pb-md-0 mt-4 border-top-dark">
                         <div className="col-md-8  text-center text-md-start text-15">
                             <p className="text-white-80">Copyright © 
-                                <a href="#" className="text-decoration-none text-white-80"> KKN FT UMPO'24</a>. 
-                                Desa Krisik
+                                <a href="#" className="text-decoration-none text-white-80"> KKN FT UMPO'24</a> |  
+                                Pemerintah Desa Krisik
                             </p>
                         </div>
                         

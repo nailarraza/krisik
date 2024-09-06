@@ -6,7 +6,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import PostCard from "../components/PostCard";
 import BackToTop from "../components/BackToTop";
 
-const title = "Berita";
+const title = "Berita - Desa Krisik";
 
 export default function Berita({posts}) {
     let [namaDesa, setNamaDesa] = useState("Alang Alang");
@@ -26,7 +26,7 @@ export default function Berita({posts}) {
             <Head>
                 <title>{title}</title>
                 <meta name="description" content={`Website Desa ${namaDesa}`} />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo.png" />
                 {/* <!-- Open Graph / Facebook --> */}
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />
