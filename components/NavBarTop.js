@@ -395,7 +395,7 @@ export default function NavBarTop() {
               </li>
               <li className="nav-item ms-lg-1">
                 <ActiveLink activeClassName="active" href="/covid">
-                  <a className="nav-link text-color-tertiary">Covid</a>
+                  <a className="nav-link text-color-tertiary">Peternakan</a>
                 </ActiveLink>
               </li>
               <li className="nav-item ms-lg-1">
