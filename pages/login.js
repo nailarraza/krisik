@@ -2,26 +2,51 @@ import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBarTop from "../components/NavBarTop";
 import Footer from "../components/Footer";
-
+import { useRouter } from "next/router";
+// localStorage is a built-in browser API, no need to import it
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const router = useRouter();
 
+  // Authentication status check on component load
   useEffect(() => {
-    // Check if there is a token in localStorage and redirect if it exists
-    const token = localStorage.getItem("token");
-    if (token) {
-      window.location.href = "/dashboard";
-    }
-  }, []);
+    const checkAuthStatus = async () => {
+      try {
+        const token = localStorage.getItem("session-token");
+        const response = await fetch(
+          "https://back-krisik.vercel.app/auth/user",
+          {
+            method: "GET",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: `Bearer ${token}`,
+            },
+          }
+        );
+
+        console.log(response);
+        if (response.status === 401) {
+          // Unauthorized, stay on login page
+          localStorage.removeItem("session-token");
+        } else if (response.status === 200) {
+          router.push("/dashboard");
+          return;
+        }
+      } catch (error) {
+        setError("An error occurred while checking authentication.");
+      }
+    };
+
+    checkAuthStatus();
+  }, [router]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    setError(""); // Reset error on new submission
-
+    setError(""); // Clear previous error
     try {
       const response = await fetch(
         "https://back-krisik.vercel.app/auth/login",
@@ -39,11 +64,10 @@ export default function Login() {
         setError(data.message || "Login failed");
         return;
       }
-
       const data = await response.json();
       const token = data.token;
-      localStorage.setItem("token", token);
-      window.location.href = "/dashboard";
+      localStorage.setItem("session-token", token);
+      router.push("/dashboard"); // Navigate to dashboard
     } catch (error) {
       setError("An error occurred. Please try again.");
     } finally {

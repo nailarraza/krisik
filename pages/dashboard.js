@@ -6,11 +6,14 @@ import { useRouter } from "next/router";
 
 export default function Dashboard() {
   const [user, setUser] = useState(null);
+  const [error, setError] = useState("");
   const router = useRouter();
 
   useEffect(() => {
     const fetchUserData = async () => {
-      const token = localStorage.getItem("token");
+      const token = localStorage.getItem("session-token");
+
+      // Redirect to login if no token is found
       if (!token) {
         router.push("/login");
         return;
@@ -18,7 +21,7 @@ export default function Dashboard() {
 
       try {
         const response = await fetch(
-          "https://back-krisik.vercel.app/auth/me", // Example endpoint to get user data
+          "https://back-krisik.vercel.app/auth/user", // Example endpoint to get user data
           {
             method: "GET",
             headers: {
@@ -29,15 +32,14 @@ export default function Dashboard() {
 
         if (response.ok) {
           const data = await response.json();
-          setUser(data.user);
+          console.log(data);
+          setUser(data); // Assuming data contains user info
         } else {
-          localStorage.removeItem("token");
-          router.push("/login");
+          router.push("/login"); // Redirect to login if unauthorized
         }
       } catch (error) {
         console.error("Failed to fetch user data", error);
-        localStorage.removeItem("token");
-        router.push("/login");
+        setError("Failed to load user data. Please try again.");
       }
     };
 
@@ -45,7 +47,7 @@ export default function Dashboard() {
   }, [router]);
 
   const handleLogout = () => {
-    localStorage.removeItem("token");
+    localStorage.removeItem("session-token");
     router.push("/login");
   };
 
@@ -56,16 +58,18 @@ export default function Dashboard() {
         <h1 className="text-center mb-4">Dashboard</h1>
         <div className="row justify-content-center">
           <div className="col-md-8">
-            {user ? (
+            {error ? (
+              <div className="alert alert-danger">{error}</div>
+            ) : user ? (
               <div className="card shadow p-4 rounded bg-light">
-                <h2>Welcome, {user.name}!</h2>
+                <h2>Welcome, {user.uid}!</h2>
                 <p>Email: {user.email}</p>
                 <button onClick={handleLogout} className="btn btn-danger mt-3">
                   Logout
                 </button>
               </div>
             ) : (
-              <p>Loading...</p>
+              <p>Loading user data...</p>
             )}
           </div>
         </div>
