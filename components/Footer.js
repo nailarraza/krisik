@@ -39,32 +39,39 @@ export default function Footer() {
             <footer className="bg-dark text-white border-top-primary">
                 <div className="container pt-5">
                     <div className="row">
-                        <div className="col-md-8 col-lg-4 my-2 my-md-0">
-                            <h4>Tentang Web</h4>
-                            <Image src={imgLogo} className="img-fluid mb-2" alt="image" height={100} width={100} />
-                            <p className="text-white-80 text-15">Website Resmi Desa Krisik, Kec. Pudak, Kabupaten Ponorogo, Jawa
-                                Timur. Pemerintah Desa Krisik</p>
+                        
+                    <div className="col-md-8 col-lg-4 my-2 my-md-0">
+                            <h4>KRISIK BANGKIT</h4>
+                            <Image src={imgLogo} className="img-fluid" alt="image" height={100} width={100} />
+                            <p className="text-white-80 text-15">Desa Krisik, Kecamatan Pudak, Kabupaten Ponorogo, Provinsi Jawa Timur, Indonesia</p>
                         </div>
+
                         <div className="col-md-6 col-lg-3 my-2 my-md-0">
                             <h5 className="mb-3">Kontak Desa</h5>
                             <ul className="list-unstyled text-white-80 text-decoration-none text-15">
                                 <li className="my-2">
                                     <div className="d-flex">
-                                        <i className="me-2"><FaMapMarkerAlt/></i>
-                                        Jl. Raya {namaDesa} Kec. {namaKecamatan}, Bangkalan, 69116
+                                        <i className="me-2"><FaInstagram/></i>
+                                        @pemdeskrisik.pudak
                                     </div>
                                 </li>
                                 <li className="my-2">
                                     <i className="me-2"><FaPhoneAlt/></i>
-                                    081 234 567 89
+                                    0885156001102
                                 </li>
                                 <li className="my-2">
                                     <i className="me-2"><FaEnvelope/></i>
-                                    pemdeskrisik@gmail.com
+                                    krisikdesa@gmail.com
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-6 col-lg-3 my-2 my-md-0">
+                        <div className="col-md-8 col-lg-4 my-2 my-md-0">
+                            <h4>Tentang Website Desa Krisik</h4>
+                            <p className="text-white-80 text-15">Ini adalah Website Resmi Pemerintah Desa Krisik, Kecamatan Pudak, Kabupaten Ponorogo, Jawa
+                                Timur, </p>
+                                <p className="text-white-80 text-15">Berisikan informasi mengenai Desa Krisik yang dikelola oleh Pemuda dan Pemerintah </p>
+                        </div>
+                        {/*<div className="col-md-6 col-lg-3 my-2 my-md-0">
                             <h5 className="mb-3">Kontak Penting</h5>
                             <ul className="list-unstyled text-white-80 text-decoration-none text-15">
                                 <li className="my-2">
@@ -80,8 +87,8 @@ export default function Footer() {
                                     PLN - 123
                                 </li>
                             </ul>
-                        </div>
-                        <div className="col-md-6 col-lg-2 my-2 my-md-0">
+                        </div>*/}
+                        {/*<div className="col-md-6 col-lg-2 my-2 my-md-0">
                             <h5 className="mb-3">Aplikasi Desa</h5>
                             <ul className="list-unstyled text-white-80 text-decoration-none text-15">
                                 <li className="my-2">
@@ -97,22 +104,17 @@ export default function Footer() {
                                     <a href="https://web-anjungan-desa.vercel.app" className="text-decoration-none text-white-80" rel="noreferrer" target="_blank">Info Kesehatan</a>
                                 </li>
                             </ul>
-                        </div>
+                        </div>*/}
                     </div>
                     <div className="row pt-3 pb-md-0 mt-4 border-top-dark">
                         <div className="col-md-8  text-center text-md-start text-15">
                             <p className="text-white-80">Copyright © 
-                                <a href="#" className="text-decoration-none text-white-80"> KKN FT UMPO'24</a>. 
-                                Desa Krisik
+                                <a href="#" className="text-decoration-none text-white-80"> KKN FT UMPO'24</a> |  
+                                Pemerintah Desa Krisik
                             </p>
                         </div>
+                        
                         <div className="col-md-4 mb-3 text-center text-md-end ">
-                            <a href="https://web.facebook.com/" className="mx-2 text-white-80" aria-label="Facebook" rel="noreferrer" target="_blank">
-                                <i className=""><FaFacebook /></i>
-                            </a>
-                            <a href="https://twitter.com/" className="mx-2 text-white-80" aria-label="Twitter" rel="noreferrer" target="_blank">
-                                <i className=""><FaTwitter /></i>
-                            </a>
                             <a href="https://www.youtube.com/" className="mx-2 text-white-80" aria-label="Youtube" rel="noreferrer" target="_blank">
                                 <i className=""><FaYoutube /></i>
                             </a>

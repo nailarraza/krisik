@@ -9,7 +9,7 @@ import BackToTop from "../components/BackToTop";
 
 ChartJS.register( ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement );
 
-const title = "Dana Desa";
+const title = "Dana Desa - Desa Krisik";
 const colors = ["#36b9cc", "#e74a3b", "#fd7e14", "#f6c23e"];
 const options = {
     plugins: {
@@ -63,7 +63,7 @@ export default function DanaDesa({ danadesa }) {
             <Head>
                 <title>{title}</title>
                 <meta name="description" content={`Website Desa ${namaDesa}`} />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/logo.png" />
                 {/* <!-- Open Graph / Facebook --> */}
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />

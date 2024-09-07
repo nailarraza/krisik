@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Breadcrumb from "../components/Breadcrumb";
 import BackToTop from "../components/BackToTop";
 
-const title = "Wilayah Administrasi";
+const title = "Wilayah Administrasi - Desa Krisik";
 
 export default function InformasiPublik({ covid }) {
   let [namaDesa, setNamaDesa] = useState("Krisik");
@@ -35,7 +35,7 @@ export default function InformasiPublik({ covid }) {
       <Head>
         <title>{title}</title>
         <meta name="description" content={`Website Desa ${namaDesa}`} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />

@@ -32,7 +32,7 @@ import "aos/dist/aos.css";
 SwiperCore.use([Autoplay, Pagination]);
 
 export default function Home({ posts, agendas, videos, photos }) {
-  let [namaDesa, setNamaDesa] = useState("krisik");
+  let [namaDesa, setNamaDesa] = useState("Krisik");
   let [namaKecamatan, setNamaKecamatan] = useState("Ponorogo");
 
   useEffect(() => {
@@ -40,7 +40,7 @@ export default function Home({ posts, agendas, videos, photos }) {
       once: true,
     });
 
-    setNamaDesa("krisik");
+    setNamaDesa("Krisik");
     setNamaKecamatan("Ponorogo");
   }, []);
 
@@ -97,9 +97,9 @@ export default function Home({ posts, agendas, videos, photos }) {
       <style jsx>{``}</style>
 
       <Head>
-        <title>Selamat Datang di Situs Resmi Desa {namaDesa}</title>
+        <title>Situs Resmi Desa {namaDesa}</title>
         <meta name="description" content={`Website Desa ${namaDesa}`} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />
