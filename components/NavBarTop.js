@@ -3,6 +3,7 @@ import Link from "next/link";
 import imgLogo from "../public/logo.png";
 import ActiveLink from "./ActiveLink";
 import React, { useState, useEffect } from "react";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import {
   FaPhoneAlt,
   FaRegEnvelope,
@@ -19,9 +20,18 @@ const ThemeToggle = dynamic(() => import("../components/ThemeToggle"), {
 
 export default function NavBarTop() {
   let [namaDesa, setNamaDesa] = useState("Alang Alang");
+  let [user, setUser] = useState(false);
 
   useEffect(() => {
+    // Mengubah nama desa setelah komponen di-mount
     setNamaDesa("KRISIK");
+
+    // Memeriksa apakah ada token di localStorage
+    const token = localStorage.getItem("session-token");
+    if (token) {
+      // Jika ada token, berarti pengguna sudah login
+      setUser(true); // Perbaikan: gunakan setUser(true) bukan setUser = true
+    }
   }, []);
 
   const [isFixedNavbar, setFixedNavbar] = useState("false");
@@ -371,19 +381,17 @@ export default function NavBarTop() {
                   </li>
                 </ul>
               </li>
-              {/*<li className="nav-item ms-lg-1">
-                <ActiveLink activeClassName="active" href="/covid">
-                  <a className="nav-link text-color-tertiary">Peternakan</a>
-                </ActiveLink>
-              </li>*/}
               <li className="nav-item ms-lg-1">
-                <ActiveLink activeClassName="active" href="/login">
-                <button className="btn btn-primary rounded">Admin</button>
-                </ActiveLink>
+                {user ? (
+                  <Nav.Link href="/dashboard" className="text-primary  fw-bold">
+                    Dashboard
+                  </Nav.Link>
+                ) : (
+                  <Nav.Link href="/login" className="text-primary fw-bold">
+                    Login
+                  </Nav.Link>
+                )}
               </li>
-              {/* <li className="nav-item ms-lg-1">
-                                <a className="nav-link" aria-current="page"><ThemeToggle /></a>
-                            </li> */}
             </ul>
           </div>
         </div>
