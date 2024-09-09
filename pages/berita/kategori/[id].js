@@ -6,7 +6,7 @@ import PostCard from "../../../components/PostCard";
 import Footer from "../../../components/Footer";
 
 export default function Kategori({ posts }) {
-  let [namaDesa, setNamaDesa] = useState("Alang Alang");
+  let [namaDesa, setNamaDesa] = useState("Krisik");
 
   useEffect(() => {
     const storedNamaDesa = localStorage.getItem("namaDesa");

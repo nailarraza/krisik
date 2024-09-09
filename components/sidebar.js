@@ -17,7 +17,7 @@ export default function NavBarTop({ user, handleLogout }) {
           <Nav className="me-auto">
             <Nav.Link href="/dashboard">Home</Nav.Link>
             <Nav.Link href="/_berita">Berita</Nav.Link>
-            <Nav.Link href="/_features">Agenda</Nav.Link>
+            {/* <Nav.Link href="/_features">Agenda</Nav.Link> */}
           </Nav>
           <Nav className="ms-auto">
             {user ? (

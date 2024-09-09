@@ -56,21 +56,15 @@ export default function Dashboard() {
         <NavBarTop user={user} handleLogout={handleLogout} />
         <Sidebar user={user} handleLogout={handleLogout} />
         <div className="container mt-5">
-          <h1 className="text-center mb-4">Dashboard</h1>
-          <div className="row justify-content-center">
-            <div className="col-md-8">
+          <h1 className=" mb-4">Dashboard</h1>
+          <div className="row justify-content-right ">
+            <div className="col-md-8 mb-5">
               {error ? (
                 <div className="alert alert-danger">{error}</div>
               ) : user ? (
-                <div className="card shadow p-4 rounded bg-light">
-                  <h2>Welcome, {user.uid}!</h2>
-                  <p>Email: {user.email}</p>
-                  <button
-                    onClick={handleLogout}
-                    className="btn btn-danger mt-3"
-                  >
-                    Logout
-                  </button>
+                <div className="card shadow p-4 rounded bg-light ">
+                  <h2 className="bold">Selamat Datang!</h2>
+                  <p>{user.email}</p>
                 </div>
               ) : (
                 <p>Loading user data...</p>

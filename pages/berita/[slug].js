@@ -24,7 +24,7 @@ import {
 export default function BlogDetail({ post, randomPosts, randomAgendas }) {
   const router = useRouter();
 
-  let [namaDesa, setNamaDesa] = useState("Alang Alang");
+  let [namaDesa, setNamaDesa] = useState("krisik");
 
   useEffect(() => {
     namaDesa = localStorage.getItem("namaDesa");

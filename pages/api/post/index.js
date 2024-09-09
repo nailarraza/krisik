@@ -1,7 +1,10 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { posts } from "./data";
-
-export default function allPostHandler(req, res) {
-  res.status(200).json(posts);
-};
-
+export default async function allPostHandler(req, res) {
+  try {
+    const response = await fetch("https://back-krisik.vercel.app/berita");
+    const data = await response.json();
+    res.status(200).json(data);
+  } catch (error) {
+    console.error("Error fetching posts:", error);
+  }
+}
