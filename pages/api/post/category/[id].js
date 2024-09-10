@@ -1,15 +1,23 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { posts } from "../data";
-
-export default function singlePostHandler({ query: { id } }, res) {
-
-  const filtered = posts.filter((post) => post.category === id);
-
-  // Post with category exists
-  if (filtered.length > 0) {
-    res.status(200).json(filtered);
-  } else {
-    res.status(404).json({ message: `Post with category: ${id} not found.` });
+export default async function singlePostHandler(req, res) {
+  const { id } = req.query; // Destructure category id from query
+  try {
+    const response = await fetch("https://back-krisik.vercel.app/berita");
+    if (!response.ok) {
+      return res
+        .status(response.status)
+        .json({ message: "Failed to fetch posts" });
+    }
+    const posts = await response.json();
+    const filteredPosts = posts.filter((post) => post.category === id);
+    if (filteredPosts.length > 0) {
+      return res.status(200).json(filteredPosts);
+    } else {
+      return res
+        .status(404)
+        .json({ message: `Posts with category: ${id} not found.` });
+    }
+  } catch (error) {
+    console.error("Error fetching posts:", error);
+    return res.status(500).json({ message: "Internal server error" });
   }
-};
-
+}

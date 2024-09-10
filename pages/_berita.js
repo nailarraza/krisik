@@ -24,6 +24,7 @@ export default function Dashboard() {
     body: "",
     image: null,
   });
+  const [selectedArticleId, setSelectedArticleId] = useState(null); // To track selected article for editing
   const [loading, setLoading] = useState(false);
   const [beritaList, setBeritaList] = useState([]);
   const [loadingBerita, setLoadingBerita] = useState(true);
@@ -40,7 +41,7 @@ export default function Dashboard() {
 
       try {
         const response = await fetch(
-          "https://back-krisik.vercel.app/auth/user", // Example endpoint
+          "https://back-krisik.vercel.app/auth/user",
           {
             method: "GET",
             headers: {
@@ -121,19 +122,24 @@ export default function Dashboard() {
     }
 
     try {
-      const response = await fetch(
-        "https://back-krisik.vercel.app/berita/create",
-        {
-          method: "POST",
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-          body: formPayload,
-        }
-      );
+      const url = selectedArticleId
+        ? `https://back-krisik.vercel.app/berita/update/${selectedArticleId}`
+        : "https://back-krisik.vercel.app/berita/create";
+
+      const method = selectedArticleId ? "PUT" : "POST";
+
+      const response = await fetch(url, {
+        method,
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+        body: formPayload,
+      });
 
       if (response.ok) {
-        alert("Article created successfully!");
+        alert(
+          `Article ${selectedArticleId ? "updated" : "created"} successfully!`
+        );
         setFormData({
           title: "",
           category: "7",
@@ -141,16 +147,72 @@ export default function Dashboard() {
           body: "",
           image: null,
         });
+        setSelectedArticleId(null); // Reset after successful update
         fetchBeritaList(); // Refresh the list of articles
       } else {
         const errorData = await response.json();
-        setError(errorData.message || "Failed to create article");
+        setError(
+          errorData.message ||
+            `Failed to ${selectedArticleId ? "update" : "create"} article`
+        );
       }
     } catch (error) {
-      console.error("Failed to create article", error);
-      setError("Failed to create article. Please try again.");
+      console.error(
+        `Failed to ${selectedArticleId ? "update" : "create"} article`,
+        error
+      );
+      setError(
+        `Failed to ${
+          selectedArticleId ? "update" : "create"
+        } article. Please try again.`
+      );
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleEdit = (article) => {
+    setSelectedArticleId(article.id); // Use article.id (numeric id)
+    setFormData({
+      title: article.title,
+      category: article.category,
+      excerpt: article.excerpt,
+      body: article.body,
+      image: null, // Image will remain null until a new image is uploaded
+    });
+  };
+
+  const handleDelete = async (id) => {
+    const token = localStorage.getItem("session-token");
+
+    if (!token) {
+      router.push("/login");
+      return;
+    }
+
+    if (!confirm("Are you sure you want to delete this article?")) return;
+
+    try {
+      const response = await fetch(
+        `https://back-krisik.vercel.app/berita/delete/${id}`,
+        {
+          method: "DELETE",
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+
+      if (response.ok) {
+        alert("Article deleted successfully!");
+        fetchBeritaList(); // Refresh the list of articles
+      } else {
+        const errorData = await response.json();
+        setError(errorData.message || "Failed to delete article");
+      }
+    } catch (error) {
+      console.error("Failed to delete article", error);
+      setError("Failed to delete article. Please try again.");
     }
   };
 
@@ -161,6 +223,23 @@ export default function Dashboard() {
     { name: "Category", selector: (row) => row.category, sortable: true },
     { name: "Excerpt", selector: (row) => row.excerpt },
     { name: "Body", selector: (row) => row.body },
+    {
+      name: "Actions",
+      cell: (row) => (
+        <>
+          <Button
+            variant="info"
+            onClick={() => handleEdit(row)}
+            className="me-2"
+          >
+            Edit
+          </Button>
+          <Button variant="danger" onClick={() => handleDelete(row.id)}>
+            Delete
+          </Button>
+        </>
+      ),
+    },
   ];
 
   return (
@@ -169,7 +248,9 @@ export default function Dashboard() {
         <NavBarTop user={user} handleLogout={handleLogout} />
         <Sidebar user={user} handleLogout={handleLogout} />
         <Container className="mt-5">
-          <h1 className="mb-4">Create Berita</h1>
+          <h1 className="mb-4">
+            {selectedArticleId ? "Edit Berita" : "Create Berita"}
+          </h1>
           {error && <Alert variant="danger">{error}</Alert>}
 
           <Form onSubmit={handleSubmit}>
@@ -253,6 +334,8 @@ export default function Dashboard() {
             <Button variant="primary" type="submit" disabled={loading}>
               {loading ? (
                 <Spinner animation="border" size="sm" />
+              ) : selectedArticleId ? (
+                "Update Berita"
               ) : (
                 "Create Berita"
               )}
