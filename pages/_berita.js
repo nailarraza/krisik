@@ -142,7 +142,7 @@ export default function Dashboard() {
         );
         setFormData({
           title: "",
-          category: "7",
+          category: "berita",
           excerpt: "",
           body: "",
           image: null,
@@ -219,10 +219,24 @@ export default function Dashboard() {
   // Columns for the DataTable
   const columns = [
     { name: "No", selector: (row, index) => index + 1, width: "50px" },
-    { name: "Title", selector: (row) => row.title, sortable: true },
-    { name: "Category", selector: (row) => row.category, sortable: true },
-    { name: "Excerpt", selector: (row) => row.excerpt },
-    { name: "Body", selector: (row) => row.body },
+    {
+      name: "Title",
+      selector: (row) => row.title,
+      sortable: true,
+      wrap: true, // Menambahkan wrap pada kolom Title
+      maxWidth: "200px", // Memberikan batasan lebar pada kolom Title
+    },
+    {
+      name: "Category",
+      selector: (row) => row.category,
+      sortable: true,
+    },
+    {
+      name: "Body",
+      selector: (row) => row.body,
+      wrap: true, // Menambahkan wrap pada kolom Body
+      maxWidth: "300px", // Memberikan batasan lebar pada kolom Body
+    },
     {
       name: "Actions",
       cell: (row) => (
@@ -249,7 +263,7 @@ export default function Dashboard() {
         <Sidebar user={user} handleLogout={handleLogout} />
         <Container className="mt-5">
           <h1 className="mb-4">
-            {selectedArticleId ? "Edit Berita" : "Create Berita"}
+            {selectedArticleId ? "Edit Berita" : "Tambah Berita"}
           </h1>
           {error && <Alert variant="danger">{error}</Alert>}
 
@@ -257,7 +271,7 @@ export default function Dashboard() {
             <Row className="mb-3">
               <Col>
                 <Form.Group controlId="title">
-                  <Form.Label>Title</Form.Label>
+                  <Form.Label>Judul Berita</Form.Label>
                   <Form.Control
                     type="text"
                     name="title"
@@ -287,7 +301,7 @@ export default function Dashboard() {
               </Col>
             </Row>
 
-            <Row className="mb-3">
+            {/* <Row className="mb-3">
               <Col>
                 <Form.Group controlId="excerpt">
                   <Form.Label>Excerpt</Form.Label>
@@ -300,7 +314,7 @@ export default function Dashboard() {
                   />
                 </Form.Group>
               </Col>
-            </Row>
+            </Row> */}
 
             <Row className="mb-3">
               <Col>
@@ -335,16 +349,16 @@ export default function Dashboard() {
               {loading ? (
                 <Spinner animation="border" size="sm" />
               ) : selectedArticleId ? (
-                "Update Berita"
+                "Perbaharui Berita"
               ) : (
-                "Create Berita"
+                "Tambahkan Berita"
               )}
             </Button>
           </Form>
 
           <hr />
 
-          <h2 className="mt-5">All Berita</h2>
+          <h2 className="mt-5">Semua Berita</h2>
           {loadingBerita ? (
             <Spinner animation="border" />
           ) : (

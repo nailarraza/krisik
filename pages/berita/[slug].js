@@ -197,24 +197,21 @@ export default function BlogDetail({ post, randomPosts, randomAgendas }) {
                     <Link href="/berita/kategori/berita">
                       <a className="text-decoration-none">Berita</a>
                     </Link>
-                    <span className="badge bg-primary rounded-pill">7</span>
                   </li>
                   <li className="list-group-item bg-card-primary border-0 px-0 py-1 d-flex justify-content-between align-items-center">
                     <Link href="/berita/kategori/kesehatan">
                       <a className="text-decoration-none">Kesehatan</a>
                     </Link>
-                    <span className="badge bg-primary rounded-pill">5</span>
                   </li>
                   <li className="list-group-item bg-card-primary border-0 px-0 py-1 d-flex justify-content-between align-items-center">
                     <Link href="/berita/kategori/acak">
                       <a className="text-decoration-none">Acak</a>
                     </Link>
-                    <span className="badge bg-primary rounded-pill">3</span>
                   </li>
                 </ul>
               </div>
 
-              <div className="card bg-card-primary shadow-blog border-0 px-3 py-2 mt-4">
+              {/* <div className="card bg-card-primary shadow-blog border-0 px-3 py-2 mt-4">
                 <h5 className="mb-3 text-color-primary">Latest Agenda</h5>
                 {someRandomAgendas.map((item) => (
                   <div key={item.id}>
@@ -227,7 +224,7 @@ export default function BlogDetail({ post, randomPosts, randomAgendas }) {
                     />
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
             {/* End Right Content */}
           </div>
