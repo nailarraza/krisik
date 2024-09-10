@@ -43,7 +43,7 @@ export default function Footer() {
                     <div className="col-md-8 col-lg-4 my-2 my-md-0">
                             <h4>KRISIK BANGKIT</h4>
                             <Image src={imgLogo} className="img-fluid" alt="image" height={100} width={100} />
-                            <p className="text-white-80 text-15">Desa Krisik, Kecamatan Pudak, Kabupaten Ponorogo, Provinsi Jawa Timur, Indonesia</p>
+                            <p className="text-white-80 text-15">Jalan Raya Pudak - Pulung, 63483, Krisik, Pudak, Ponorogo, Provinsi Jawa Timur, Indonesia</p>
                         </div>
 
                         <div className="col-md-6 col-lg-3 my-2 my-md-0">
@@ -61,7 +61,7 @@ export default function Footer() {
                                 </li>
                                 <li className="my-2">
                                     <i className="me-2"><FaEnvelope/></i>
-                                    krisikdesa@gmail.com
+                                    pemdeskrisik@gmail.com
                                 </li>
                             </ul>
                         </div>
