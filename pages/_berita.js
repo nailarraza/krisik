@@ -286,7 +286,7 @@ export default function Dashboard() {
             <Row className="mb-3">
               <Col>
                 <Form.Group controlId="category">
-                  <Form.Label>Category</Form.Label>
+                  <Form.Label>Kategori</Form.Label>
                   <Form.Select
                     name="category"
                     value={formData.category}
@@ -319,7 +319,7 @@ export default function Dashboard() {
             <Row className="mb-3">
               <Col>
                 <Form.Group controlId="body">
-                  <Form.Label>Body</Form.Label>
+                  <Form.Label>Deskripsi</Form.Label>
                   <Form.Control
                     as="textarea"
                     name="body"
@@ -334,7 +334,7 @@ export default function Dashboard() {
             <Row className="mb-3">
               <Col>
                 <Form.Group controlId="image">
-                  <Form.Label>Image</Form.Label>
+                  <Form.Label>Foto</Form.Label>
                   <Form.Control
                     type="file"
                     name="image"
