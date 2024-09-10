@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { FaUser, FaRegCalendarAlt, FaArrowRight } from "react-icons/fa";
 
-export default function PostCard({ id, image, title, slug, author, date, excerpt }) {
+export default function PostCard({ id, image, title, slug, author, date, excerpt, body }) {
 
     return (
         <>
@@ -59,7 +59,7 @@ export default function PostCard({ id, image, title, slug, author, date, excerpt
                             {date}
                         </div>
                     </div>
-                    <p className="card-text text-color-secondary mt-2">{excerpt}</p>
+                    <p className="card-text text-color-secondary mt-2">{body}</p>
                 </div>
             </article>
         </>
