@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBarTop from "../components/NavBarTop";
 import Footer from "../components/Footer";
 import { useRouter } from "next/router";
+
+const title = "Login - Desa Krisik";
+
 // localStorage is a built-in browser API, no need to import it
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -77,6 +80,7 @@ export default function Login() {
 
   return (
     <main>
+      <title>{title}</title>
       <NavBarTop />
       <div className="container mt-5 mb-5">
         <h1 className="text-center mb-4">Login</h1>

@@ -14,6 +14,8 @@ import Footer from "../components/Footer";
 import { useRouter } from "next/router";
 import DataTable from "react-data-table-component";
 
+const title = "Berita - Desa Krisik";
+
 export default function Dashboard() {
   const [user, setUser] = useState(null);
   const [error, setError] = useState("");
@@ -258,6 +260,7 @@ export default function Dashboard() {
 
   return (
     <div className="d-flex">
+      <title>{title}</title>
       <div className="flex-grow-1">
         <NavBarTop user={user} handleLogout={handleLogout} />
         <Sidebar user={user} handleLogout={handleLogout} />
