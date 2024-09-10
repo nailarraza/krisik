@@ -262,6 +262,16 @@ export default function NavBarTop() {
                       </a>
                     </ActiveLink>
                   </li>
+                  <li className="me-2">
+                    <ActiveLink
+                      activeClassName="active"
+                      href="/potensidesa"
+                    >
+                      <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
+                        Potensi Desa
+                      </a>
+                    </ActiveLink>
+                  </li>
                   {/*<li className="me-2">
                     <ActiveLink activeClassName="active" href="/produkhukum">
                       <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
