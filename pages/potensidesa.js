@@ -41,23 +41,23 @@ return (
                `}
           </style>
 
-          <Head>
-               <title>{title}</title>
-               <meta name="description" content={`Website Desa ${namaDesa}`} />
-               <link rel="icon" href="/logo.png" />
-               {/* <!-- Open Graph / Facebook --> */}
-               <meta property="og:type" content="website" />
-               <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />
-               <meta property="og:title" content={`Situs Resmi Desa ${namaDesa}`} />
-               <meta
-                    property="og:description"
-                    content={`Website Resmi Desa ${namaDesa}. Media komunikasi dan transparansi Pemerintah Desa`}
-               />
-               <meta
-                    property="og:image"
-                    content={`${process.env.NEXT_PUBLIC_API_URL}/metalogo.jpg`}
-               ></meta>
-          </Head>
+     <Head>
+          <title>{title}</title>
+          <meta name="description" content={`Website Desa ${namaDesa}`} />
+          <link rel="icon" href="/logo.png" />
+          {/* <!-- Open Graph / Facebook --> */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />
+          <meta property="og:title" content={`Situs Resmi Desa ${namaDesa}`} />
+          <meta
+               property="og:description"
+               content={`Website Resmi Desa ${namaDesa}. Powered by. KKN FT UMPO 2024`}
+          />
+          <meta
+               property="og:image"
+               content={`${process.env.NEXT_PUBLIC_API_URL}/hero1.jpg`}
+          ></meta>
+      </Head>
 
           <NavBarTop />
 
@@ -80,7 +80,7 @@ return (
                              
                          </div>*/}
 
-                         <div className="card bg-card-primary border-0 shadow-sm px-3 py-3 mb-4">
+                         <div className="card bg-card-primary border-0 shadow-sm px-4 py-4 mb-4">
                               <h3 className="text-color-primary">Potensi Desa</h3>
                               <p className="text-color-secondary text-justify mt-4">
                                    Berikut adalah potensi desa yang ada di Desa Krisik
@@ -93,7 +93,7 @@ return (
                                                   type="button"
                                                   data-bs-toggle="collapse"
                                                   data-bs-target="#collapseOne"
-                                                  aria-expanded="true"
+                                                  aria-expanded="false"
                                                   aria-controls="collapseOne"
                                              >
                                                   Pertanian
@@ -158,6 +158,31 @@ return (
                                              <div className="accordion-body">
                                                   wisata alam yang ada di Desa krisik adalah kwkwk. <br />                                                
                                                   <a href="wisata.js">Baca Selengkapnya</a>
+                                             </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                             <h2 className="accordion-header" id="headingFour">
+                                                  <button
+                                                       className="accordion-button collapsed"
+                                                       type="button"
+                                                       data-bs-toggle="collapse"
+                                                       data-bs-target="#collapseFour"
+                                                       aria-expanded="false"
+                                                       aria-controls="collapseFour"
+                                                  >
+                                                       Potensi Lainnya
+                                                  </button>
+                                             </h2>
+                                             <div
+                                                  id="collapseFour"
+                                                  className="accordion-collapse collapse"
+                                                  aria-labelledby="headingFour"
+                                                  data-bs-parent="#potensiDesaAccordion"
+                                             >
+                                                   <div className="accordion-body">
+                                                 Yo Ndak Tau Kog Nanya Saya <br />                                                
+                                                  <a href="wisata.js">Baca Selengkapnya</a>
+                                                  </div>
                                              </div>
                                         </div>
                                    </div>

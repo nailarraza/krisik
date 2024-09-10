@@ -42,21 +42,21 @@ export default function Sejarah({ posts }) {
       </style>
 
       <Head>
-        <title>{title}</title>
-        <meta name="description" content={`Website Desa ${namaDesa}`} />
-        <link rel="icon" href="/logo.png" />
-        {/* <!-- Open Graph / Facebook --> */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />
-        <meta property="og:title" content={`Situs Resmi Desa ${namaDesa}`} />
-        <meta
-          property="og:description"
-          content={`Website Resmi Desa ${namaDesa}. Media komunikasi dan transparansi Pemerintah Desa`}
-        />
-        <meta
-          property="og:image"
-          content={`${process.env.NEXT_PUBLIC_API_URL}/metalogo.jpg`}
-        ></meta>
+          <title>Sejarah - Desa {namaDesa}</title>
+          <meta name="description" content={`Website Desa ${namaDesa}`} />
+          <link rel="icon" href="/logo.png" />
+          {/* <!-- Open Graph / Facebook --> */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />
+          <meta property="og:title" content={`Situs Resmi Desa ${namaDesa}`} />
+          <meta
+               property="og:description"
+               content={`Website Resmi Desa ${namaDesa}. Powered by. KKN FT UMPO 2024`}
+          />
+          <meta
+               property="og:image"
+               content={`${process.env.NEXT_PUBLIC_API_URL}/hero1.jpg`}
+          ></meta>
       </Head>
 
       <NavBarTop />

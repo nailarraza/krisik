@@ -109,7 +109,7 @@ export default function Home({ posts, agendas, videos, photos }) {
         />
         <meta
           property="og:image"
-          content={`${process.env.NEXT_PUBLIC_API_URL}/logo.png`}
+          content={`${process.env.NEXT_PUBLIC_API_URL}/hero1.jpg`}
         ></meta>
       </Head>
 
