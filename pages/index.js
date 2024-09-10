@@ -6,7 +6,6 @@ import NavBarTop from "../components/NavBarTop";
 import CarouselHome from "../components/CarouselHome";
 import Footer from "../components/Footer";
 import PostCard from "../components/PostCard";
-import AgendaCard from "../components/AgendaCard";
 import VideoCard from "../components/VideoCard";
 import BackToTop from "../components/BackToTop";
 import StatisticLink from "../components/StatisticLink";
@@ -143,13 +142,14 @@ export default function Home({ posts, agendas, videos, photos }) {
               >
                 <div className="text-center text-md-start mt-3 mt-md-0">
                   <h3 className="pb-2 text-color-primary">
-                    Website Desa {namaDesa}
+                    Tentang Desa {namaDesa}
                   </h3>
-                  <p className="text-color-secondary" id="scroll-to-statistic">
-                    Website Resmi Desa {namaDesa}, Kec. {namaKecamatan},
-                    Kabupaten Ponorogo, Jawa Timur. Media komunikasi dan
-                    transparansi Pemerintah Desa untuk seluruh masyarakat di
-                    Desa krisik
+                  <p className="text-color-secondary text-justify mb-3 mt-2" id="scroll-to-statistic">
+                    Desa {namaDesa} terletak di Kabupaten Ponorogo, Provinsi Jawa Timur. Desa ini memiliki
+                    luas wilayah sekitar 773.6 Hektar dengan ketinggian diatas permukaan laut 1065 meter dengan
+                    pembagian lahan tanah sawah 27.30 Ha, tanah kering 118.00 Ha, tanah perkebunan 20 Ha, 
+                    Fasilitas umum 8.30 Ha, tanah hutan 600 Ha. Desa krisik terdiri dari 3 Dusun, yaitu Dusun Krisik,
+                    Dusun Surokoyo, dan Dusun Ngreco. Desa ini memiliki 5 RW dan 12 RT
                   </p>
                   <Link href="/sejarah">
                     <a className="btn btn-primary shadow rounded px-3 scroll-to">
