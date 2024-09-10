@@ -4,6 +4,7 @@ import NavBarTop from "../components/NavBarTop";
 import Sidebar from "../components/sidebar";
 import Footer from "../components/Footer";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const title = "Dashboard - Desa Krisik";
 
@@ -53,22 +54,27 @@ export default function Dashboard() {
   };
 
   return (
-    
-    <div className="d-flex">
+    <div className="d-flex justify-content-center">
       <title>{title}</title>
       <div className="flex-grow-1">
         <NavBarTop user={user} handleLogout={handleLogout} />
         <Sidebar user={user} handleLogout={handleLogout} />
         <div className="container mt-5">
-          <h1 className=" mb-4">Dashboard</h1>
-          <div className="row justify-content-right ">
+          <h1 className=" mb-5 text-center">Dashboard</h1>
+          <div className="row justify-content-center mt-4 ">
             <div className="col-md-8 mb-5">
               {error ? (
                 <div className="alert alert-danger">{error}</div>
               ) : user ? (
-                <div className="card shadow p-4 rounded bg-light ">
+                <div className="card shadow p-4 rounded bg-light text-center mb-4">
                   <h2 className="bold">Selamat Datang!</h2>
                   <p>{user.email}</p>
+
+                  <div className="card shadow p-4 rounded bg-light center mt-4 ">
+                    <Link href="/_berita">
+                      <a className="btn btn-primary">Ke Menu Berita</a>
+                    </Link>
+                  </div>
                 </div>
               ) : (
                 <p>Loading user data...</p>
