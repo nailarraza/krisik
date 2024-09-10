@@ -164,10 +164,10 @@ export default function NavBarTop() {
               />{" "}
               <div>
                 <h5 className="ms-1 my-0 fw-600 text-color-primary">
-                  {namaDesa} BANGKIT
+                  DESA {namaDesa}
                 </h5>
                 <p className="ms-1 mb-0 text-15 text-color-tertiary">
-                  DESA {namaDesa}
+                  Kecamatan Pudak, Kabupaten Ponorogo
                 </p>
               </div>
             </a>
@@ -231,13 +231,13 @@ export default function NavBarTop() {
                       </a>
                     </ActiveLink>
                   </li>
-                  <li className="me-2">
+                  {/* <li className="me-2">
                     <ActiveLink activeClassName="active" href="/struktur">
                       <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
                         Struktur Organisasi
                       </a>
                     </ActiveLink>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li className="nav-item dropdown ms-lg-1">
@@ -262,7 +262,7 @@ export default function NavBarTop() {
                       </a>
                     </ActiveLink>
                   </li>
-                  <li className="me-2">
+                  {/* <li className="me-2">
                     <ActiveLink activeClassName="active" href="/produkhukum">
                       <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
                         Produk Hukum
@@ -278,10 +278,10 @@ export default function NavBarTop() {
                         Informasi Publik
                       </a>
                     </ActiveLink>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
-              <li className="nav-item dropdown ms-lg-1">
+              {/* <li className="nav-item dropdown ms-lg-1">
                 <a
                   className="nav-link dropdown-toggle text-color-tertiary"
                   href="#"
@@ -318,7 +318,7 @@ export default function NavBarTop() {
                     </ActiveLink>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               {/* <li className="nav-item dropdown ms-lg-1">
                 <a
                   className="nav-link dropdown-toggle text-color-tertiary"
@@ -350,7 +350,7 @@ export default function NavBarTop() {
                   </li>
                 </ul>
               </li> */}
-              <li className="nav-item dropdown ms-lg-1">
+              {/* <li className="nav-item dropdown ms-lg-1">
                 <a
                   className="nav-link dropdown-toggle text-color-tertiary"
                   href="#"
@@ -380,7 +380,7 @@ export default function NavBarTop() {
                     </ActiveLink>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item ms-lg-1">
                 {user ? (
                   <Nav.Link href="/dashboard" className="text-primary  fw-bold">
