@@ -105,11 +105,11 @@ export default function Home({ posts, agendas, videos, photos }) {
         <meta property="og:title" content={`Situs Resmi Desa ${namaDesa}`} />
         <meta
           property="og:description"
-          content={`Website Resmi Desa ${namaDesa}. Media komunikasi dan transparansi Pemerintah Desa`}
+          content={`Website Resmi Desa ${namaDesa}. Powered by. KKN FT UMPO 2024`}
         />
         <meta
           property="og:image"
-          content={`${process.env.NEXT_PUBLIC_API_URL}/metalogo.jpg`}
+          content={`${process.env.NEXT_PUBLIC_API_URL}/logo.png`}
         ></meta>
       </Head>
 
