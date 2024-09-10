@@ -320,7 +320,7 @@ export default function Home({ posts, agendas, videos, photos }) {
                     slug={post.slug}
                     author={post.author}
                     date={post.date}
-                    excerpt={post.excerpt}
+                    excerpt={post.body}
                   />
                 </SwiperSlide>
               ))}
