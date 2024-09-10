@@ -279,9 +279,9 @@ export default function Dashboard() {
                     onChange={handleInputChange}
                     required
                   >
-                    <option value="7">Berita</option>
-                    <option value="5">Kesehatan</option>
-                    <option value="Acak">Acak</option>
+                    <option value="berita">Berita</option>
+                    <option value="kesehatan">Kesehatan</option>
+                    <option value="acak">Acak</option>
                   </Form.Select>
                 </Form.Group>
               </Col>
