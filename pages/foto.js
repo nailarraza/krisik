@@ -7,7 +7,7 @@ import Carousel, { Modal, ModalGateway } from "react-images";
 import { useState, useEffect, useCallback } from "react";
 import BackToTop from "../components/BackToTop";
 
-const title = "Foto";
+const title = "Foto - Desa Krisik";
 
 export default function Foto({ photos }) {
     // console.log(photos)

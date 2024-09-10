@@ -3,7 +3,7 @@ import Head from "next/head";
 import NavBarTop from "../components/NavBarTop";
 import Footer from "../components/Footer";
 import BreadcrumbArea from "../components/BreadcrumbArea";
-import imgDesa from "../public/hero.webp";
+import imgDesa from "../public/hero1.jpg";
 import imgLogo from "../public/logo.png";
 import Image from "next/image";
 import BackToTop from "../components/BackToTop";
@@ -42,7 +42,7 @@ export default function Sejarah({ posts }) {
       </style>
 
       <Head>
-          <title>Sejarah - Desa {namaDesa}</title>
+          <title>Sejarah - Desa Krisik</title>
           <meta name="description" content={`Website Desa ${namaDesa}`} />
           <link rel="icon" href="/logo.png" />
           {/* <!-- Open Graph / Facebook --> */}

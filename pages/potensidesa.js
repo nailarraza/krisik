@@ -62,7 +62,7 @@ return (
           <NavBarTop />
 
           <main>
-               <BreadcrumbArea pageName="Potensi Desa" currentPage="Potensi" />
+               <BreadcrumbArea pageName="Potensi Desa" currentPage="Potensi Desa" />
 
                <div className="container my-5">
                     <div className="col-lg-10 mx-auto">
@@ -83,7 +83,7 @@ return (
                          <div className="card bg-card-primary border-0 shadow-sm px-4 py-4 mb-4">
                               <h3 className="text-color-primary">Potensi Desa</h3>
                               <p className="text-color-secondary text-justify mt-4">
-                                   Berikut adalah potensi desa yang ada di Desa Krisik
+                                   Berikut adalah beberapa bidang yang memiliki potensi di Desa Krisik :
                               </p>
                               <div className="accordion" id="potensiDesaAccordion">
                                    <div className="accordion-item">
