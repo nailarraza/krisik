@@ -11,6 +11,8 @@ import imgAcr1 from "../public/acr1.jpeg";
 import imgAcr2 from "../public/acr3.jpg";
 import imgAcr4 from "../public/acr4.JPG";
 import imgAcr5 from "../public/acr5.JPG";
+import imgAcr6 from "../public/acr6.jpg";
+import imgAcr7 from "../public/hero1.jpg";
 
 const title = "Potensi - Desa Krisik";
 
@@ -123,7 +125,7 @@ return (
                                              <Image 
                                              alt="pertanian"
                                              src={imgAcr1}
-                                             width="780"
+                                             width="800"
                                              height="520"
                                              />
                                              </div>
@@ -165,8 +167,8 @@ return (
                                              <div className="d-flex justify-content-center">
                                              <Image 
                                              alt="pertanian"
-                                             src={imgAcr2}
-                                             width="480"
+                                             src={imgAcr6}
+                                             width="800"
                                              height="520"
                                              />
                                              </div>
@@ -209,7 +211,7 @@ return (
                                              <Image 
                                              alt="pertanian"
                                              src={imgAcr2}
-                                             width="480"
+                                             width="420"
                                              height="520"
                                              />
                                              </div>
@@ -251,7 +253,7 @@ return (
                                              <Image 
                                              alt="pertanian"
                                              src={imgAcr4}
-                                             width="480"
+                                             width="420"
                                              height="520"
                                              />
                                              </div>
@@ -293,8 +295,8 @@ return (
                                              <div className="d-flex justify-content-center">
                                              <Image 
                                              alt="pertanian"
-                                             src={imgAcr1}
-                                             width="480"
+                                             src={imgAcr7}
+                                             width="780"
                                              height="520"
                                              />
                                              </div>
@@ -325,7 +327,7 @@ return (
                                                   data-bs-parent="#potensiDesaAccordion"
                                              >
                                                    <div className="accordion-body">
-                                                  <p>Coban Lawe di Krisik adalah salah satu tempat wisatab yang berada di Desa Krisik, Kabupaten Ponorog, Jawa Timur, Indonesia. Tempat ini sangat indah dan bisa
+                                                  <p>Coban Lawe di Krisik adalah salah satu tempat wisata yang berada di Desa Krisik, Kabupaten Ponorog, Jawa Timur, Indonesia. Tempat ini sangat indah dan bisa
                                                        memberikan sensasi yang berbeda dengan aktivitas kita sehari-hari. Penduduk lokal daerah Wisata Air terjun Coban Lawe di Ponorogo
                                                        jungan sangat ramah terhadap wisatawan lokal maupun wisatawan asing</p>   
                                                   
@@ -334,13 +336,13 @@ return (
                                              <Image 
                                              alt="pertanian"
                                              src={imgAcr5}
-                                             width="480"
+                                             width="420"
                                              height="520"
                                              />
                                              </div>
                                                   
 
-                                                  <p className="mt-3">Lokasinya di kaki Guung Wilis yang terkenal dengan hawa yang sejuk. Di sekitar Coban Lawe terdapat beberapa destinasi wisata menarik
+                                                  <p className="mt-3">Lokasinya di kaki Gunung Wilis yang terkenal dengan hawa yang sejuk. Di sekitar Coban Lawe terdapat beberapa destinasi wisata menarik
                                                        seperti perkebunan sayur dan wisata Tanah Goyang. Air Terjun Coban Lawe berada di wilayah pegunungan dengan aliran sungai yang jernih. Aliran air yang
                                                        berasal dari kawasan perbukitan di lereng Gunung Wilis membentukn Air Terjun</p>                                          
                                              </div>
