@@ -26,7 +26,7 @@ const options = {
 
 export default function DanaDesa({ danadesa }) {
 
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
 
     useEffect(() => {
         const storedNamaDesa = localStorage.getItem("namaDesa");

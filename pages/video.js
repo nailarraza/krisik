@@ -9,7 +9,7 @@ import BackToTop from "../components/BackToTop";
 const title = "Video";
 
 export default function Video({ videos }) {
-  let [namaDesa, setNamaDesa] = useState("Alang Alang");
+  let [namaDesa, setNamaDesa] = useState("Krisik");
 
   useEffect(() => {
     namaDesa = localStorage.getItem("namaDesa");

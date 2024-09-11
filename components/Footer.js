@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
     let [namaKecamatan, setNamaKecamatan] = useState("Tragah");
 
     useEffect(() => {

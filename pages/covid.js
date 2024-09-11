@@ -8,7 +8,7 @@ import BackToTop from "../components/BackToTop";
 const title = "Covid-19";
 
 export default function Covid({ covid }) {
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
 
     useEffect(() => {
         namaDesa = localStorage.getItem("namaDesa");

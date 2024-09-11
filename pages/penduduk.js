@@ -45,7 +45,7 @@ const title = "Demografis - Desa Krisik";
 
 export default function Penduduk({ gender, education, religion, pekerjaan, status, usia }) {
 
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
 
     useEffect(() => {
         namaDesa = localStorage.getItem("namaDesa");

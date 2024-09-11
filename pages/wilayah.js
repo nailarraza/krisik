@@ -34,7 +34,7 @@ const title = "Demografis Wilayah - Desa Krisik";
 
 export default function Wilayah({ area }) {
 
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
 
     useEffect(() => {
         namaDesa = localStorage.getItem("namaDesa");

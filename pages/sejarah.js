@@ -18,7 +18,7 @@ const title = "Sejarah - Desa Krisik";
  * @returns {JSX.Element} The Sejarah page component.
  */
 export default function Sejarah({ posts }) {
-  let [namaDesa, setNamaDesa] = useState("Alang Alang");
+  let [namaDesa, setNamaDesa] = useState("Krisik");
   let [namaKecamatan, setNamaKecamatan] = useState("Tragah");
 
   useEffect(() => {

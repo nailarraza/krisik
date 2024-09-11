@@ -9,7 +9,7 @@ import BackToTop from "../components/BackToTop";
 const title = "Agenda";
 
 export default function Agenda({agendas}) {
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
 
     useEffect(() => {
         namaDesa = localStorage.getItem("namaDesa");

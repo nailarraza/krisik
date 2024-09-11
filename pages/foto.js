@@ -11,7 +11,7 @@ const title = "Foto - Desa Krisik";
 
 export default function Foto({ photos }) {
     // console.log(photos)
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
 
     useEffect(() => {
         const storedNamaDesa = localStorage.getItem("namaDesa");

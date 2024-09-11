@@ -8,7 +8,7 @@ import BackToTop from "../components/BackToTop";
 const title = "Produk Hukum - Desa Krisik";
 
 export default function ProdukHukum({ covid }) {
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
 
     useEffect(() => {
         namaDesa = localStorage.getItem("namaDesa");

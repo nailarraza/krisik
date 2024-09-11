@@ -14,7 +14,7 @@ import { FacebookIcon, TwitterIcon, WhatsappIcon, TelegramIcon, FacebookShareBut
 
 export default function Agendaetail({ agenda, randomPosts, randomAgendas}) {
     const router = useRouter()
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
 
     useEffect(() => {
         namaDesa = localStorage.getItem("namaDesa");

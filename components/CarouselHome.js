@@ -6,7 +6,7 @@ import imgHeroA from "../public/hero6.jpg";
 import imgHeroB from "../public/hero5.jpg";
 
 export default function CarouselHome() {
-    let [namaDesa, setNamaDesa] = useState("Alang Alang");
+    let [namaDesa, setNamaDesa] = useState("Krisik");
 
     useEffect(() => {
         namaDesa = localStorage.getItem("namaDesa");

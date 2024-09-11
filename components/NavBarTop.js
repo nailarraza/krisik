@@ -20,7 +20,7 @@ const ThemeToggle = dynamic(() => import("../components/ThemeToggle"), {
 });
 
 export default function NavBarTop() {
-  let [namaDesa, setNamaDesa] = useState("Alang Alang");
+  let [namaDesa, setNamaDesa] = useState("Krisik");
   let [user, setUser] = useState(false);
 
   useEffect(() => {
