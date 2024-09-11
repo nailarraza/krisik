@@ -53,7 +53,7 @@ export default function Custom404() {
                 <div>
                     <h1>404</h1>
                     <div className="flex">
-                        <h2>Yang anda Cari Tidak Di Temukan Di Perangkat Ini.
+                        <h2>Yang anda Cari Tidak Di Temukan Di Website Ini.
                             <br/>
                             <Link href="/">
                                 <a className="text-decoration-none">
