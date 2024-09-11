@@ -273,9 +273,9 @@ export default function Penduduk({ gender, education, religion, pekerjaan, statu
                                 </table>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
 
-                    <div className="card bg-card-primary rounded shadow-card border-0 my-5" id="usia">
+                    {/*<div className="card bg-card-primary rounded shadow-card border-0 my-5" id="usia">
                         <div className="card-header bg-color-secondary py-3">
                             <h5 className="m-0 font-weight-bold text-color-primary">Demografi Berdasarkan Usia</h5>
                         </div>
