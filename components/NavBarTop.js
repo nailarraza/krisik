@@ -177,7 +177,7 @@ export default function NavBarTop() {
             className="nav-link ms-auto order-0 order-xl-1"
             aria-current="page"
           >
-            {/*<ThemeToggle />*/}
+            <br/> <ThemeToggle /> <br/>
 
           </div>
           <button
