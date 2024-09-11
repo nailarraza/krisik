@@ -226,19 +226,20 @@ export default function Dashboard() {
       selector: (row) => row.title,
       sortable: true,
       wrap: true, // Menambahkan wrap pada kolom Title
-      maxWidth: "200px", // Memberikan batasan lebar pada kolom Title
+      maxWidth: "600px", // Memberikan batasan lebar pada kolom Title
     },
     {
       name: "Category",
       selector: (row) => row.category,
       sortable: true,
+      maxWidth: "160px",
     },
-    {
+    /*{
       name: "Body",
       selector: (row) => row.body,
       wrap: true, // Menambahkan wrap pada kolom Body
       maxWidth: "300px", // Memberikan batasan lebar pada kolom Body
-    },
+    },*/
     {
       name: "Actions",
       cell: (row) => (
@@ -297,6 +298,7 @@ export default function Dashboard() {
                     required
                   >
                     <option value="berita">Berita</option>
+                    <option value="informasi">Informasi</option>
                     <option value="kesehatan">Kesehatan</option>
                     <option value="acak">Acak</option>
                   </Form.Select>
@@ -329,6 +331,9 @@ export default function Dashboard() {
                     value={formData.body}
                     onChange={handleInputChange}
                     required
+                    rows={8} // Mengatur tinggi (jumlah baris) textarea
+                    style={{ width: '100%', height: '300px' }} // Menentukan lebar dan tinggi secara langsung
+
                   />
                 </Form.Group>
               </Col>
@@ -337,7 +342,7 @@ export default function Dashboard() {
             <Row className="mb-3">
               <Col>
                 <Form.Group controlId="image">
-                  <Form.Label>Foto</Form.Label>
+                  <Form.Label>Thumbnail</Form.Label>
                   <Form.Control
                     type="file"
                     name="image"
