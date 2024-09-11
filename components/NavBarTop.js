@@ -14,6 +14,7 @@ import {
   FaBars,
 } from "react-icons/fa";
 import dynamic from "next/dynamic";
+import { Analytics } from "@vercel/analytics/react"
 const ThemeToggle = dynamic(() => import("../components/ThemeToggle"), {
   ssr: false,
 });

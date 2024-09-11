@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import React, { useState, useCallback } from "react";
 import Image from "next/image";
 import imgLogo from "../public/logo.png";
+import { Analytics } from "@vercel/analytics/react"
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
