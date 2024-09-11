@@ -329,6 +329,7 @@ export default function NavBarTop() {
                   </li>
                 </ul>
               </li>
+              <br/>
               {/* <li className="nav-item dropdown ms-lg-1">
                 <a
                   className="nav-link dropdown-toggle text-color-tertiary"
@@ -391,6 +392,7 @@ export default function NavBarTop() {
                   </li>
                 </ul>
               </li>*/}
+              <br/>
               <li className="nav-item ms-lg-1">
                 {user ? (
                   <Nav.Link href="/dashboard" className="text-primary  fw-bold">
@@ -402,6 +404,7 @@ export default function NavBarTop() {
                   </Nav.Link>
                 )}
               </li>
+              <br/>
             </ul>
           </div>
         </div>
