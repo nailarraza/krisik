@@ -15,9 +15,9 @@ import {
 } from "react-icons/fa";
 import dynamic from "next/dynamic";
 import { Analytics } from "@vercel/analytics/react"
-const ThemeToggle = dynamic(() => import("../components/ThemeToggle"), {
+{/*const ThemeToggle = dynamic(() => import("../components/ThemeToggle"), {
   ssr: false,
-});
+}); */}
 
 export default function NavBarTop() {
   let [namaDesa, setNamaDesa] = useState("Krisik");
