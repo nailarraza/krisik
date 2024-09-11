@@ -313,14 +313,14 @@ export default function NavBarTop() {
                       </a>
                     </ActiveLink>
                   </li>
-                  <li className="me-2">
+                  {/*<li className="me-2">
                     <ActiveLink activeClassName="active" href="/penduduk">
                       <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
                         Penduduk
                       </a>
                     </ActiveLink>
                   </li>
-                  {/*<li className="me-2">
+                  <li className="me-2">
                     <ActiveLink activeClassName="active" href="/wilayah">
                       <a className="nav-link nav-link-focus text-color-tertiary ms-2 ps-2 ms-md-2">
                         Wilayah
