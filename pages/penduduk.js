@@ -41,7 +41,7 @@ const options = {
     }
 };
 
-const title = "Demografis Penduduk - Desa Krisik";
+const title = "Demografis - Desa Krisik";
 
 export default function Penduduk({ gender, education, religion, pekerjaan, status, usia }) {
 
