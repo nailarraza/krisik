@@ -391,7 +391,6 @@ export default function NavBarTop() {
                   </li>*/}
                 </ul>
               </li>
-              <br/>
               <li className="nav-item ms-lg-1">
                 {user ? (
                   <Nav.Link href="/dashboard" className="text-primary  fw-bold">
