@@ -67,7 +67,7 @@ export default function Sejarah({ posts }) {
         <div className="container my-5">
           <div className="col-lg-10 mx-auto">
             <div className="card bg-card-primary border-0 shadow-sm px-3 py-3 mb-4">
-              <h3 className="text-color-primary">Sejarah Singkat</h3>
+              <h3 className="text-color-primary">Sejarah dan Profil Singkat</h3>
               <Image
                 src={imgDesa}
                 alt="Foto Desa"
@@ -77,10 +77,23 @@ export default function Sejarah({ posts }) {
                 Uraian Singkat Profil Desa
               </h5>
               <p className="text-justify text-color-secondary">
-              Desa Krisik, terletak di Kecamatan Pudak, Kabupaten Ponorogo, Jawa Timur, memiliki sejarah yang kaya dan unik yang mencerminkan perjalanan panjang masyarakatnya dari masa ke masa. Nama Krisik diyakini berasal dari kondisi geografis desa yang dikelilingi oleh perbukitan dan hutan yang dahulu lebat, sehingga memberikan kesan sejuk dan asri. Desa ini awalnya merupakan permukiman kecil yang sebagian besar penduduknya hidup dari bertani, beternak, dan memanfaatkan hasil alam dari hutan sekitar.
-Seiring berjalannya waktu, penduduk desa mulai berkembang, dan desa Krisik menjadi salah satu pusat kegiatan ekonomi kecil di wilayah Pudak. Pada masa kolonial, desa ini sempat menjadi titik strategis dalam distribusi hasil pertanian, terutama jagung dan kopi, yang menjadi komoditas utama di wilayah tersebut.
-Kebudayaan desa Krisik sangat dipengaruhi oleh adat Jawa yang kuat, dengan adanya upacara adat, tradisi gotong royong, dan kegiatan sosial yang masih berlangsung hingga saat ini. Selain itu, pengaruh agama Islam juga sangat kuat di desa ini, sebagaimana terlihat dari banyaknya masjid dan kegiatan keagamaan yang rutin diadakan.
-Meskipun telah mengalami modernisasi, Desa Krisik tetap menjaga kearifan lokal dan tradisi yang diwariskan oleh leluhurnya. Hingga kini, desa ini terus berkembang, dengan masyarakat yang semakin terbuka terhadap teknologi dan pendidikan, namun tetap mempertahankan nilai-nilai kebersamaan dan kekeluargaan.
+              Desa Krisik terletak di Kabupaten Ponorogo, Provinsi Jawa Timur. 
+              Desa ini memiliki luas wilayah sekitar 773.6 Hektar dengan ketinggian diatas permukaan laut 1065 meter dengan pembagian lahan tanah sawah 27.30 Ha, tanah kering 118.00 Ha, tanah perkebunan 20 Ha, Fasilitas umum 8.30 Ha, tanah hutan 600 Ha. 
+              Desa krisik terdiri dari 3 Dusun, yaitu Dusun Krisik, Dusun Surokoyo, dan Dusun Ngreco. Desa ini memiliki 5 RW dan 12 RT.
+              Wilayah Desa Krisik terletak pada ketinggian antara 1065 meter diatas permukaan laut. Lahan di Desa Krisik memiliki tingkat kemiringan yang beragam, yang dapat mempengaruhi
+              berbagai aspek seperti pertanian, sistem irigasi, pemilihan tanaman, sistem drainase,  dan aksesibilitas ke lahan pertanian.
+              Suhu udara di Desa Krisik memiliki variasi harian yang dapat mempengaruhi kehidupan sehari-hari masyarakat. Suhu udara ini mempengaruhi pada pemilihan varietas tanaman,
+              aktivitas kegiatan luar ruangan, dan konsumsi energi
+              </p>
+              <h5 className="mt-4 text-color-primary">
+                Sejarah Desa
+              </h5>
+              <p className="text-justify text-color-secondary">
+              Asal mula terjadinya Desa Krisik menurut  sumber cerita para sesepuh di Desa Krisik masa kini sebagai berikut: konon tersebutlah seorang empu yang melarikan diri dari kerajaan ia mendapat tugas dari seorang raja untuk membuat keris, namun dalam
+              waktu yang sudah di tentukan keris pesanan raja itu belum dapat terselesaikan. Maka marahlah sang raja dan menjatuhkan hukuman pada empu, tetapi sebelum hukuman dilaksanakan empu berhasil melarikan diri untuk menghindari penangkapan dan pengejaran
+              sang empu bersembunyi masuk kearah hutan yang sangat lebat. Setelah merasa aman beristirahatlah sang empu untuk melepaskan lelah, tak lama ia melanjutkan kembali perjalanannya. Namun alangkah terkejutnya tatkala di tengah perjalanannya keris pusakanya
+              tertinggal ditempat peristirahatannya. Maka kembalilah sang empu untuk mengambilnya kembali. Ternyata keris pusakanya masih berada di tempat semula. Dan tempat tertinggalnya keris itu dinamakan krisik dalam bahasa jawa dapat di artika kerise isik atau keri 
+              ning isik. Demikian sekilas cerita cerita terjadinya Desa Krisik menurut para sesepuh 
               </p>
             </div>
             <div className="card bg-card-primary border-0 shadow-sm px-3 py-3 mb-4">
