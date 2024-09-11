@@ -63,14 +63,14 @@ export default function InformasiPublik({ covid }) {
             <hr className="mb-4" />
             <h5 className="text-color-primary">Topografi Desa</h5>
             <p className="text-color-secondary">
-              Luas wilayah di Desa {namaDesa} ± 965 Ha, dengan topografi
+              Luas wilayah di Desa Krisik ± 773,6 Ha, dengan topografi
               bergelombang, peruntukan lahan sebagian besar untuk lahan
               perkebunan Masyarakat, kemudian untuk pemukiman, sarana umum,
-              pemerintahan dan lainnya. Iklim Desa {namaDesa} sebagai mana
+              pemerintahan dan lainnya. Iklim Desa Krisik sebagai mana
               desa-desa lainnya di wilayah Indonesia yaitu iklim tropis (musim
               penghujan dan musim kemarau), hal tersebut mempunyai pengaruh
               langsung terhadap pala tanam terhadap lahan pertanian yang ada di
-              Desa {namaDesa} Kecamatan {namaKecamatan}.
+              Desa Krisik Kecamatan Pudak Ponorogo.
             </p>
             <h5 className="mt-3 text-color-primary">Detail Wilayah</h5>
             <div className="table-responsive col-lg-5">
@@ -78,37 +78,39 @@ export default function InformasiPublik({ covid }) {
                 <tbody>
                   <tr>
                     <td>Luas Wilayah</td>
-                    <td>: 1.056 ha</td>
+                    <td>: 773.6 Hektar</td>
                   </tr>
+                  <br/>
                   <tr>
                     <td>Batas Wilayah</td>
                   </tr>
                   <tr>
                     <td>Utara</td>
-                    <td>: Desa Banjarsari</td>
+                    <td>: Desa Bareng</td>
                   </tr>
                   <tr>
                     <td>Selatan</td>
-                    <td>: Desa gajah Mati</td>
+                    <td>: Desa Pudak Wetan</td>
                   </tr>
                   <tr>
                     <td>Barat</td>
-                    <td>: Desa Mekarsari</td>
+                    <td>: Desa Tambang</td>
                   </tr>
                   <tr>
                     <td>Timur</td>
-                    <td>: Desa Retak Mudik</td>
+                    <td>: Desa Pudak Kulon</td>
                   </tr>
+                  <br/>
                   <tr>
                     <td>Klimatologi</td>
                   </tr>
                   <tr>
                     <td>Suhu</td>
-                    <td>: 30ºC</td>
+                    <td>: 16ºC - 30ºC</td>
                   </tr>
                   <tr>
                     <td>Curah Hujan</td>
-                    <td>: 43 %</td>
+                    <td>: 78 %</td>
                   </tr>
                   <tr>
                     <td>Kelembaban Udara</td>
@@ -116,9 +118,9 @@ export default function InformasiPublik({ covid }) {
                   </tr>
                   <tr>
                     <td>Kecepatan Angin</td>
-                    <td>: 20 km/h</td>
+                    <td>: 26 km/h</td>
                   </tr>
-                  <tr>
+                 {/* <tr>
                     <td>Luas Lahan Pertanian</td>
                   </tr>
                   <tr>
@@ -144,7 +146,7 @@ export default function InformasiPublik({ covid }) {
                   <tr>
                     <td>Luas Lahan Pemukiman</td>
                     <td>: 2 Ha/m2</td>
-                  </tr>
+                  </tr>*/}
                 </tbody>
               </table>
             </div>
