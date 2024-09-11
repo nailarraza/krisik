@@ -19,7 +19,6 @@ import imgAcr6 from "../public/acr6.jpg";
 import imgAcr7 from "../public/hero1.jpg";
 import Gallery from "react-photo-gallery";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import Carousel, { Modal, ModalGateway } from "react-images";
 import { FaArrowRight, FaArrowDown } from "react-icons/fa";
 // Swiper
@@ -681,7 +680,6 @@ export default function Home({ posts, agendas, videos, photos }) {
 
         <SistemDesa />
         <Analytics />
-        <SpeedInsights />
       </main>
 
       <Footer />
