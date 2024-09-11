@@ -7,6 +7,10 @@ import imgDesa from "../public/hero.webp";
 import imgLogo from "../public/logo.png";
 import Image from "next/image";
 import BackToTop from "../components/BackToTop";
+import imgAcr1 from "../public/acr1.jpeg";
+import imgAcr2 from "../public/acr3.jpg";
+import imgAcr4 from "../public/acr4.JPG";
+import imgAcr5 from "../public/acr5.JPG";
 
 const title = "Potensi - Desa Krisik";
 
@@ -106,8 +110,30 @@ return (
                                              data-bs-parent="#potensiDesaAccordion"
                                         >
                                              <div className="accordion-body">
-                                                  pertanian yang ada di Desa krisik adalah kwkwk. <br />                                                
-                                                  <a href="pertanian.js">Baca Selengkapnya</a>
+                                                  <p>Desa krisik berada di wilayah pegunungan memiliki aliran sungai yang sangat jernih,
+                                                  aliran sungai yang turun langsung melalui perbukitan dari lereng Gunung Wilis membentuk
+                                                  Air Terjun. Aliran sungai yang langsung turun menjadi potensi bagi petani di Krisik dengan
+                                                  memanfaatkan air menjadi sumber untuk kebutuhan pertanian mereka. Desa Krisik cocok untuk budidaya
+                                                  tanaman holtikultura (buah dan sayur). Kondisi tersebut ditunjang dengan ketersediaan air yang melimpah
+                                                  dan kontur tanah yang berbukit-bukit. Desa Krisik memiliki potensi unggulan di sektor pertanian karena
+                                                  memiliki lahan yang luas dan subur</p>   
+                                                  
+                                                    
+                                             <div className="d-flex justify-content-center">
+                                             <Image 
+                                             alt="pertanian"
+                                             src={imgAcr1}
+                                             width="780"
+                                             height="520"
+                                             />
+                                             </div>
+                                                  
+
+                                                  <p className="mt-3">Beberapa jenis tanaman yang potensial untuk ditanam di lahan kering Desa Krisik adalah padi sawah,
+                                                  wortel, kubis, jagung, dan bawang merah. Dengan hasil produksi padi sawah 3 ton, wortel 200 ton, kubis 100 ton,
+                                                  jagung 10 ton, dan bawang merah 15 ton. Dengan memanfaatkan potensi ini, Desa Krisik dapat mengembangkan sektor 
+                                                  pertanian dan meningkatkan hasil pertanian melalui intensifikasi, ekstensifikasi, diversifikasi, mekanisasi, dan
+                                                  rehabilitas pertanian </p>                                          
                                              </div>
                                         </div>
                                    </div>
@@ -121,7 +147,7 @@ return (
                                                   aria-expanded="false"
                                                   aria-controls="collapseTwo"
                                              >
-                                                  Peternakan
+                                                  Perkebunan
                                              </button>
                                         </h2>
                                         <div
@@ -131,8 +157,26 @@ return (
                                              data-bs-parent="#potensiDesaAccordion"
                                         >
                                              <div className="accordion-body">
-                                                  peternakan yang ada di Desa krisik adalah kwkwk. <br />                                                
-                                                  <a href="peternakan.js">Baca Selengkapnya</a>
+                                                  <p>Sektor perkebunan juga menjadi salah satu mata pencaharian bagi sebagian besar masyarakat Desa Krisik, baik mereka
+                                                       yang memiliki lahan atau yang tidak. Jenis komoditas perkebunan yang dikembangkan petani Desa Krisik adalah Cengkeh dan Kopi.
+                                                       produksi Cengkeh di Desa Krisik sebesar 200 ton untuk luas lahan 20 Ha di perkebunan milik rakyat berdasarkan data </p>   
+                                                  
+                                                    
+                                             <div className="d-flex justify-content-center">
+                                             <Image 
+                                             alt="pertanian"
+                                             src={imgAcr2}
+                                             width="480"
+                                             height="520"
+                                             />
+                                             </div>
+                                                  
+
+                                                  <p className="mt-3">Beberapa jenis tanaman yang potensial untuk ditanam di lahan kering Desa Krisik adalah padi sawah,
+                                                  wortel, kubis, jagung, dan bawang merah. Dengan hasil produksi padi sawah 3 ton, wortel 200 ton, kubis 100 ton,
+                                                  jagung 10 ton, dan bawang merah 15 ton. Dengan memanfaatkan potensi ini, Desa Krisik dapat mengembangkan sektor 
+                                                  pertanian dan meningkatkan hasil pertanian melalui intensifikasi, ekstensifikasi, diversifikasi, mekanisasi, dan
+                                                  rehabilitas pertanian </p>                                          
                                              </div>
                                         </div>
                                    </div>
@@ -146,7 +190,7 @@ return (
                                                   aria-expanded="false"
                                                   aria-controls="collapseThree"
                                              >
-                                                  Wisata Alam
+                                                  Kehutanan
                                              </button>
                                         </h2>
                                         <div
@@ -156,8 +200,24 @@ return (
                                              data-bs-parent="#potensiDesaAccordion"
                                         >
                                              <div className="accordion-body">
-                                                  wisata alam yang ada di Desa krisik adalah kwkwk. <br />                                                
-                                                  <a href="wisata.js">Baca Selengkapnya</a>
+                                                  <p>Hutan berperan sebagai pencegah erosi tanah, penyaring dan pengatur aliran air bersih, pengontrol
+                                                       hama dan penyakit, tempat berkumpul fauna yang berfungsi sebagai penyerbuk dan pencegahan pemanasan global
+                                                       dengan menyerap karbon. Hutan juga berfungsi sebagai penyedia bahan-bahan yang kita butuhkan dikehidupan sehari-hari</p>   
+                                                  
+                                                    
+                                             <div className="d-flex justify-content-center">
+                                             <Image 
+                                             alt="pertanian"
+                                             src={imgAcr2}
+                                             width="480"
+                                             height="520"
+                                             />
+                                             </div>
+                                                  
+                                                  <p className="mt-3">Kawasan hutan yang luas, iklim tropis yang menjadikan tanaman cepat tumbuh dan kekayaan yang tinggi, 
+                                                       menjadikan potensi besar yang bisa dikembangkan pada masa yang akan datang. Tak kalahdari kekayaan hutan Desa Krisik,
+                                                       sektor hutan di Desa Krisik memiliki keindahan sebagai nilai lebihnya. Luas tanah Hutan Desa Krisik sebesar 600 Ha. Dengan 
+                                                       kmoditas mahoni, kayu sengon, dan bambu. Hasil dari komoditas ini, mahoni sebesar 30 ton, kayu sengon 500 ton dan bambu 400 ton</p>                                          
                                              </div>
                                         </div>
                                         <div className="accordion-item">
@@ -170,7 +230,7 @@ return (
                                                        aria-expanded="false"
                                                        aria-controls="collapseFour"
                                                   >
-                                                       Potensi Lainnya
+                                                       Peternakan
                                                   </button>
                                              </h2>
                                              <div
@@ -179,10 +239,111 @@ return (
                                                   aria-labelledby="headingFour"
                                                   data-bs-parent="#potensiDesaAccordion"
                                              >
+                                                  <div className="accordion-body">
+                                                  <p>Desa Krisik dikenal dengan kawasan sentra sapi perah. Sektor peternakan merupakan salah satu sektor unggulan
+                                                       di Desa Krisik yang terus didorong untuk dikembangkan, sehingga Krisik mampu menjadi daerah penyedia ternak. Berbagai upaya
+                                                       dilakukan untuk meningkatkan populasi dan produksi ternak , ketersediaan pakan, hingga memberdayakan sumber daya manusia
+                                                       dibidang peternakan  menjadi mandiri untuk menghadirkan produk unggulan yang berdaya saing di pasar domestik dan global. Bahkan
+                                                       banyak upaya yang dilakukan ketika terjadi wabah penyakit yang menyimpan hewan ternak</p>   
+                                                  
+                                                    
+                                             <div className="d-flex justify-content-center">
+                                             <Image 
+                                             alt="pertanian"
+                                             src={imgAcr4}
+                                             width="480"
+                                             height="520"
+                                             />
+                                             </div>
+                                                  
+
+                                                  <p className="mt-3">Produk-produk hasil ternak seperti susu dan telur tidak hanya dijual sebagai bahan baku, namun diolah sedemikian
+                                                       rupa menjadi produk-produk bernilai ekonomis. Dengan adanya diversifikasi pengolahan hasil ternak, pada akhirnya turut menciptakan 
+                                                       lapangan pekerjaan baru bagi masyarakat. Dengan jumlah ternak penghasil susu sebanyak 1.800 ekor dan penghasil telur sebanyak 1000 ekor.
+                                                       Masyarakat Desa Krisik memiliki aktivitas mencari rumput untuk memberi makan ternaknya dan memeras susu pada pagi dan sore hari </p>                                          
+                                             </div>
+                                             </div>
+                                        </div>
+                                       
+                                        <div className="accordion-item">
+                                             <h2 className="accordion-header" id="headingSix">
+                                                  <button
+                                                       className="accordion-button collapsed"
+                                                       type="button"
+                                                       data-bs-toggle="collapse"
+                                                       data-bs-target="#collapseSix"
+                                                       aria-expanded="false"
+                                                       aria-controls="collapseSix"
+                                                  >
+                                                       Fasilitas
+                                                  </button>
+                                             </h2>
+                                             <div
+                                                  id="collapseSix"
+                                                  className="accordion-collapse collapse"
+                                                  aria-labelledby="headingSix"
+                                                  data-bs-parent="#potensiDesaAccordion"
+                                             >
+                                                 <div className="accordion-body">
+                                                  <p>Desa Krisik menyediakan beberapa fasilitas umum mulai dari tempat ibadah, layanan kesehatan seperti kegiatan posyandu balita dan lansia serta layanan
+                                                       polindes, sarana pendidikan dalam bentuk SMP Negeri 1 Pudak, sarana olahraga tersedia lapangan voli, ada balai desa sebagai tempat
+                                                       untuk melaksanakan kegiatan bersama warga, dan embung sebagai tempat untuk irigasi.</p>   
+                                                  
+                                                    
+                                             <div className="d-flex justify-content-center">
+                                             <Image 
+                                             alt="pertanian"
+                                             src={imgAcr1}
+                                             width="480"
+                                             height="520"
+                                             />
+                                             </div>
+                                                  
+
+                                                  <p className="mt-3">Irigasi merupakan upaya yang dilakukan untuk mengairi lahan pertanian. Di Embung banyak anak muda yang olahraga di sore hari
+                                                       dan embung menjadi salah satu tempat untuk mengadakan kegiatan besar karena ada lapangan yang besar. Embung menjadi salah satu potensi yang besar untuk kedepannya</p>                                          
+                                             </div>
+                                             </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                             <h2 className="accordion-header" id="headingSeven">
+                                                  <button
+                                                       className="accordion-button collapsed"
+                                                       type="button"
+                                                       data-bs-toggle="collapse"
+                                                       data-bs-target="#collapseSeven"
+                                                       aria-expanded="false"
+                                                       aria-controls="collapseSeven"
+                                                  >
+                                                       Wisata
+                                                  </button>
+                                             </h2>
+                                             <div
+                                                  id="collapseSeven"
+                                                  className="accordion-collapse collapse"
+                                                  aria-labelledby="headingSeven"
+                                                  data-bs-parent="#potensiDesaAccordion"
+                                             >
                                                    <div className="accordion-body">
-                                                 Yo Ndak Tau Kog Nanya Saya <br />                                                
-                                                  <a href="wisata.js">Baca Selengkapnya</a>
-                                                  </div>
+                                                  <p>Coban Lawe di Krisik adalah salah satu tempat wisatab yang berada di Desa Krisik, Kabupaten Ponorog, Jawa Timur, Indonesia. Tempat ini sangat indah dan bisa
+                                                       memberikan sensasi yang berbeda dengan aktivitas kita sehari-hari. Penduduk lokal daerah Wisata Air terjun Coban Lawe di Ponorogo
+                                                       jungan sangat ramah terhadap wisatawan lokal maupun wisatawan asing</p>   
+                                                  
+                                                    
+                                             <div className="d-flex justify-content-center">
+                                             <Image 
+                                             alt="pertanian"
+                                             src={imgAcr5}
+                                             width="480"
+                                             height="520"
+                                             />
+                                             </div>
+                                                  
+
+                                                  <p className="mt-3">Lokasinya di kaki Guung Wilis yang terkenal dengan hawa yang sejuk. Di sekitar Coban Lawe terdapat beberapa destinasi wisata menarik
+                                                       seperti perkebunan sayur dan wisata Tanah Goyang. Air Terjun Coban Lawe berada di wilayah pegunungan dengan aliran sungai yang jernih. Aliran air yang
+                                                       berasal dari kawasan perbukitan di lereng Gunung Wilis membentukn Air Terjun</p>                                          
+                                             </div>
                                              </div>
                                         </div>
                                    </div>

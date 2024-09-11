@@ -10,7 +10,7 @@ export default function BreadcrumbArea({pageName, currentPage}) {
 
                 .breadcrumb-area {
                     padding: 150px 0;
-                    background-image: url(bkl2.jpg); height: 350px; background-repeat: no-repeat; background-position: top; background-size: 1667px 560px;
+                    background-image: url(hero1.jpg); height: 350px; background-repeat: no-repeat; background-position: top; background-size: 1667px 560px;
                 }
                 .bg-fixed {
                     background-attachment: fixed;
