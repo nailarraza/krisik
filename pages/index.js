@@ -171,7 +171,7 @@ export default function Home({ posts, agendas, videos, photos }) {
           </div>
         </section>
 
-        <StatisticLink />
+        {/*<StatisticLink />*/}
 
         {/* <div className="container my-5 py-4">
           <div className="d-flex align-items-center justify-content-between mb-4">
@@ -621,11 +621,6 @@ export default function Home({ posts, agendas, videos, photos }) {
                          </div>
                     </div>
                </div>
-
-
-
-
-
 
 
         <div className="container my-5 py-4">
