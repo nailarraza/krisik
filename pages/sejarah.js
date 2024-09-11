@@ -76,15 +76,6 @@ export default function Sejarah({ posts }) {
               <h5 className="mt-4 text-color-primary">
                 Uraian Singkat Profil Desa
               </h5>
-              <p className="text-color-secondary text-justify">
-                Desa Krisik merupakan Desa yang terletak di dataran rendah
-                yang sebelah selatannya terdapat Selat Madura, tinggi dari
-                permukaan Pantai yaitu 2 M. Selain itu Desa Krisik memiliki
-                Luas 113,48 Ha. Jarak tempuh dari Desa menuju Kantor Kecamatan
-                yaitu 2 KM. Desa Krisik terdiri dari 7 dusun, 7 RW dan 32 Rt
-                dengan jumlah penduduk sebanyak 6.506 Jiwa, dengan rincian
-                Laki-laki 3.178 jiwa dan perempuan 3.328 jiwa.
-              </p>
               <p className="text-justify text-color-secondary">
               Desa Krisik, terletak di Kecamatan Pudak, Kabupaten Ponorogo, Jawa Timur, memiliki sejarah yang kaya dan unik yang mencerminkan perjalanan panjang masyarakatnya dari masa ke masa. Nama Krisik diyakini berasal dari kondisi geografis desa yang dikelilingi oleh perbukitan dan hutan yang dahulu lebat, sehingga memberikan kesan sejuk dan asri. Desa ini awalnya merupakan permukiman kecil yang sebagian besar penduduknya hidup dari bertani, beternak, dan memanfaatkan hasil alam dari hutan sekitar.
 Seiring berjalannya waktu, penduduk desa mulai berkembang, dan desa Krisik menjadi salah satu pusat kegiatan ekonomi kecil di wilayah Pudak. Pada masa kolonial, desa ini sempat menjadi titik strategis dalam distribusi hasil pertanian, terutama jagung dan kopi, yang menjadi komoditas utama di wilayah tersebut.
