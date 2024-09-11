@@ -180,6 +180,9 @@ export default function NavBarTop() {
             <br/> <ThemeToggle /> <br/>
 
           </div>
+          <br/>
+          <br/>
+          <br/>
           <button
             className="navbar-toggler"
             type="button"
