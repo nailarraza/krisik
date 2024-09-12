@@ -66,60 +66,7 @@ const photos = [
     width: 4,
     height: 4,
   },
-  {
-    src: "",
-    title: "Image 12",
-    width: 4,
-    height: 4,
-  },
-  {
-    src: "",
-    title: "Image 13",
-    width: 4,
-    height: 4,
-  },
-  {
-    src: "",
-    title: "Image 14",
-    width: 4,
-    height: 4,
-  },
-  {
-    src: "",
-    title: "Image 15",
-    width: 4,
-    height: 4,
-  },
-  {
-    src: "",
-    title: "Image 16",
-    width: 4,
-    height: 4,
-  },
-  {
-    src: "",
-    title: "Image 17",
-    width: 4,
-    height: 4,
-  },
-  {
-    src: "",
-    title: "Image 18",
-    width: 4,
-    height: 4,
-  },
-  {
-    src: "",
-    title: "Image 19",
-    width: 4,
-    height: 4,
-  },
-  {
-    src: "",
-    title: "Image 20",
-    width: 4,
-    height: 4,
-  },
+  
 ];
 
 export default function allHandler(req, res) {
