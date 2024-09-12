@@ -55,6 +55,8 @@ export default function Custom500() {
                     <div className="flex">
                         <h2>Server-side error occurred
                             <br />
+                            <p>Hubungi Administrator Website ini - 085156001102</p>
+                            <br />
                             <Link href="/">
                                 <a className="text-decoration-none">
                                     Go back home
