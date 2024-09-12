@@ -18,7 +18,7 @@ const photos = [
     width: 4,
     height: 4,
   },
-  {/*{
+  {
     src: "https://i.pinimg.com/originals/70/c1/4a/70c14a18b8191fb23db6ee7606603c7e.jpg",
     title: "Image 4",
     width: 4,
@@ -66,7 +66,7 @@ const photos = [
     title: "Image 11",
     width: 4,
     height: 4,
-  }, */}
+  },
   
 ];
 
