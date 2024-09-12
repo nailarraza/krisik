@@ -39,7 +39,7 @@ export default function InformasiPublik({ covid }) {
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={process.env.NEXT_PUBLIC_API_URL} />
-        <meta property="og:title" content={`Situs Resmi Desa ${namaDesa}`} />
+        <meta property="og:title" content={`Website Resmi Desa ${namaDesa}`} />
         <meta
           property="og:description"
           content={`Website Resmi Desa ${namaDesa}. Media komunikasi dan transparansi Pemerintah Desa`}
