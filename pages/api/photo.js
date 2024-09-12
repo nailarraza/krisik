@@ -24,6 +24,7 @@ const photos = [
     width: 4,
     height: 4,
   },
+  
   {
     src: "https://i.pinimg.com/originals/1c/c4/7b/1cc47bed22203a405cc795a45e637871.jpg",
     title: "Image 10",
@@ -31,11 +32,12 @@ const photos = [
     height: 4,
   },
   {
-    src: "https://i.pinimg.com/originals/95/50/bf/9550bfe22aa2ead9efa441f46e1fb072.jpg",
-    title: "Image 5",
+    src: "https://i.pinimg.com/originals/0d/0c/0c/0d0c0cf4d287df6f7edf29ef2dd1c893.jpg",
+    title: "Image 11",
     width: 4,
     height: 4,
   },
+  
   {
     src: "https://i.pinimg.com/originals/5d/32/8d/5d328decb393bddb9bf2243296f892b2.jpg",
     title: "Image 6",
@@ -60,13 +62,13 @@ const photos = [
     width: 4,
     height: 4,
   },
-  
   {
-    src: "https://i.pinimg.com/originals/0d/0c/0c/0d0c0cf4d287df6f7edf29ef2dd1c893.jpg",
-    title: "Image 11",
+    src: "https://i.pinimg.com/originals/95/50/bf/9550bfe22aa2ead9efa441f46e1fb072.jpg",
+    title: "Image 5",
     width: 4,
     height: 4,
   },
+  
   
 ];
 
