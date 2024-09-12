@@ -272,10 +272,10 @@ export default function Home({ posts, agendas, videos, photos }) {
 
         <div className="container my-5 py-4" id="scroll-to">
           <div className="d-flex align-items-center justify-content-between mb-4">
-            <h3 className="mb-0 text-color-primary">Berita</h3>
+            <h3 className="mb-0 text-color-primary">Informasi dan Berita</h3>
             <Link href="/berita">
               <a className="text-decoration-none">
-                Semua Berita
+                Semua Informasi dan Berita
                 <i className="ms-2">
                   <FaArrowRight />
                 </i>
