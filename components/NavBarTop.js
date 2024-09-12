@@ -395,6 +395,11 @@ export default function NavBarTop() {
                   </li>*/}
                 </ul>
               </li>
+              <li className="nav-item mt-2 mt-xl-0 ms-lg-1">
+                <ActiveLink activeClassName="active" href="https://sipendik.vercel.app">
+                  <a className="nav-link text-color-tertiary">SIPENDIK</a>
+                </ActiveLink>
+              </li>
               <li className="nav-item ms-lg-1">
                 {user ? (
                   <Nav.Link href="/dashboard" className="text-primary  fw-bold">
