@@ -62,7 +62,7 @@ export default function Footer() {
                                 </li>
                                 <li className="my-2">
                                     <i className="me-2"><FaEnvelope/></i>
-                                    pemdeskrisik@gmail.com
+                                    adminpusat@krisikpudak.com
                                 </li>
                             </ul>
                         </div>

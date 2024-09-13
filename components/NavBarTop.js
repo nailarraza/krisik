@@ -114,7 +114,7 @@ export default function NavBarTop() {
                   <i className="me-2">
                     <FaRegEnvelope />
                   </i>
-                  pemdeskrisik@gmail.com
+                  adminpusat@krisikpudak.com
                 </a>
               </div>
             </div>
