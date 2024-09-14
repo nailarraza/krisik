@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import React, { useState, useCallback } from "react";
 import Image from "next/image";
-import imgLogo from "../public/logo.png";
+import imgLogo from "../public/footer-krisik.png";
 import { Analytics } from "@vercel/analytics/react"
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
@@ -43,7 +43,7 @@ export default function Footer() {
                         
                     <div className="col-md-8 col-lg-4 my-2 my-md-0">
                             <h4>KRISIK BANGKIT</h4>
-                            <Image src={imgLogo} className="img-fluid" alt="image" height={100} width={100} />
+                            <Image src={imgLogo} className="img-fluid" alt="image"  />
                             <p className="text-white-80 text-15">Jalan Raya Pudak - Pulung, 63483, Krisik, Pudak, Ponorogo, Provinsi Jawa Timur, Indonesia</p>
                         </div>
 
@@ -116,7 +116,7 @@ export default function Footer() {
                         </div>
                         
                         <div className="col-md-4 mb-3 text-center text-md-end ">
-                            <a href="https://www.youtube.com/" className="mx-2 text-white-80" aria-label="Youtube" rel="noreferrer" target="_blank">
+                            <a href="https://www.youtube.com/@pkkakademiadesakrisik" className="mx-2 text-white-80" aria-label="Youtube" rel="noreferrer" target="_blank">
                                 <i className=""><FaYoutube /></i>
                             </a>
                             <a href="https://www.instagram.com/" className="mx-2 text-white-80" aria-label="Instagram" rel="noreferrer" target="_blank">
