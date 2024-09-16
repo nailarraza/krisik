@@ -268,8 +268,6 @@ export default function Home({ posts, agendas, videos, photos }) {
             ))}
           </div>
         </div> */}
-
-
         <div className="container my-5 py-4" id="scroll-to">
           <div className="d-flex align-items-center justify-content-between mb-4">
             <h3 className="mb-0 text-color-primary">Informasi dan Berita</h3>

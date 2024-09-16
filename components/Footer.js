@@ -35,44 +35,23 @@ export default function Footer() {
                 .bg-dark {
                     background-color: #171717 !important;
                 }
+                    .text-justify {
+  text-align: justify;
+}
             `}</style>
 
             <footer className="bg-dark text-white border-top-primary">
                 <div className="container pt-5">
                     <div className="row">
                         
-                    <div className="col-md-8 col-lg-4 my-2 my-md-0">
+                    <div className="col-md-8 col-lg-4 my-2 my-md-2">
                             <h4>KRISIK BANGKIT</h4>
                             <Image src={imgLogo} className="img-fluid" alt="image"  />
-                            <p className="text-white-80 text-15">Website ini dibuat oleh Mahasiswa Kuliah Kerja Nyata Fakultas Teknik Universitas Muhammadiyah Ponorogo Tahun 2024</p>
-                            <br/>
-                            <p className="text-white-80 text-15">sebagai bentuk Program Kerja Mahasiswa di Desa Krisik.</p>
+                            <p className="text-white-80 text-15">Website ini dibuat oleh Mahasiswa Kuliah Kerja Nyata Fakultas Teknik Universitas Muhammadiyah Ponorogo Tahun 2024 sebagai bentuk Program Kerja Mahasiswa di Desa Krisik.</p>
                         </div>
 
-                        <div className="col-md-6 col-lg-3 my-2 my-md-0">
-                            <h5 className="mb-3">Kontak Desa</h5>
-                            <ul className="list-unstyled text-white-80 text-decoration-none text-15">
-                                <li className="my-2">
-                                    <div className="d-flex">
-                                        <i className="me-2"><FaInstagram/></i>
-                                        @pemdeskrisik.pudak
-                                    </div>
-                                </li>
-                                <li className="my-2">
-                                    <i className="me-2"><FaPhoneAlt/></i>
-                                    085156001102
-                                </li>
-                                <li className="my-2">
-                                    <i className="me-2"><FaEnvelope/></i>
-                                    adminpusat@krisikpudak.com
-                                </li>
-                                <li className="my-2">
-                                    <i className="me-2"><FaMapMarkerAlt/></i>
-                                    Jalan Raya Pudak - Pulung, 63483, Krisik, Pudak, Ponorogo, Provinsi Jawa Timur, Indonesia
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-md-8 col-lg-4 my-2 my-md-0">
+                        
+                        <div className="col-md-8 col-lg-4 my-2 my-md-2 ">
                             <h4>Tentang Website Desa Krisik</h4>
                             <p className="text-white-80 text-15">Ini adalah Website Resmi Pemerintah Desa Krisik, Kecamatan Pudak, Kabupaten Ponorogo, Jawa
                                 Timur. </p>
@@ -112,6 +91,29 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>*/}
+                        <div className="col-md-6 col-lg-4 my-2 my-md-2 ">
+                            <h5 className="mb-3">Kontak Desa</h5>
+                            <ul className="list-unstyled text-white-80 text-decoration-none text-15">
+                                <li className="my-2">
+                                    <div className="d-flex">
+                                        <i className="me-2"><FaInstagram/></i>
+                                        @pemdeskrisik.pudak
+                                    </div>
+                                </li>
+                                <li className="my-2">
+                                    <i className="me-2"><FaPhoneAlt/></i>
+                                    085156001102
+                                </li>
+                                <li className="my-2">
+                                    <i className="me-2"><FaEnvelope/></i>
+                                    adminpusat@krisikpudak.com
+                                </li>
+                                <li className="my-2">
+                                    <i className="me-2"><FaMapMarkerAlt/></i>
+                                    Jalan Raya Pudak - Pulung, 63483, Krisik, Pudak, Ponorogo, Provinsi Jawa Timur, Indonesia
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div className="row pt-3 pb-md-0 mt-4 border-top-dark">
                         <div className="col-md-8  text-center text-md-start text-15">
