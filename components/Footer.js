@@ -102,7 +102,7 @@ export default function Footer() {
                                 </li>
                                 <li className="my-2">
                                     <i className="me-2"><FaPhoneAlt/></i>
-                                    085156001102
+                                    085784721501
                                 </li>
                                 <li className="my-2">
                                     <i className="me-2"><FaEnvelope/></i>

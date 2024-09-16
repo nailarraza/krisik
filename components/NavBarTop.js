@@ -94,7 +94,7 @@ export default function NavBarTop() {
             <div className="col-lg-6 col-sm-8">
               <div className="">
                 <a
-                  href="https://wa.me/6285156001102"
+                  href="https://wa.me/6285784721501"
                   rel="noreferrer"
                   target="_blank"
                   className="text-decoration-none text-14 text-color-tertiary"
@@ -102,7 +102,7 @@ export default function NavBarTop() {
                   <i className="me-2">
                     <FaPhoneAlt />
                   </i>
-                  085156001102
+                  085784721501
                 </a>
                 <span className="mx-2 text-black-50">|</span>
                 <a
