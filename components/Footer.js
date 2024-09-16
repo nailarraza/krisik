@@ -44,7 +44,9 @@ export default function Footer() {
                     <div className="col-md-8 col-lg-4 my-2 my-md-0">
                             <h4>KRISIK BANGKIT</h4>
                             <Image src={imgLogo} className="img-fluid" alt="image"  />
-                            <p className="text-white-80 text-15">Jalan Raya Pudak - Pulung, 63483, Krisik, Pudak, Ponorogo, Provinsi Jawa Timur, Indonesia</p>
+                            <p className="text-white-80 text-15">Website ini dibuat oleh Mahasiswa Kuliah Kerja Nyata Fakultas Teknik Universitas Muhammadiyah Ponorogo Tahun 2024</p>
+                            <br/>
+                            <p className="text-white-80 text-15">sebagai bentuk Program Kerja Mahasiswa di Desa Krisik.</p>
                         </div>
 
                         <div className="col-md-6 col-lg-3 my-2 my-md-0">
@@ -63,6 +65,10 @@ export default function Footer() {
                                 <li className="my-2">
                                     <i className="me-2"><FaEnvelope/></i>
                                     adminpusat@krisikpudak.com
+                                </li>
+                                <li className="my-2">
+                                    <i className="me-2"><FaMapMarkerAlt/></i>
+                                    Jalan Raya Pudak - Pulung, 63483, Krisik, Pudak, Ponorogo, Provinsi Jawa Timur, Indonesia
                                 </li>
                             </ul>
                         </div>
