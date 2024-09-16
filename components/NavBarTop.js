@@ -132,14 +132,14 @@ export default function NavBarTop() {
                   </i>
                 </a>
                 <a
-                  href="https://www.instagram.com/"
+                  href="https://wa.me/6285784721501"
                   className="mx-2 text-color-tertiary"
                   aria-label="Instagram"
                   rel="noreferrer"
                   target="_blank"
                 >
                   <i className="">
-                    <FaInstagram />
+                    <FaPhoneAlt />
                   </i>
                 </a>
               </div>

@@ -94,12 +94,12 @@ export default function Footer() {
                         <div className="col-md-6 col-lg-4 my-2 my-md-2 ">
                             <h5 className="mb-3">Kontak Desa</h5>
                             <ul className="list-unstyled text-white-80 text-decoration-none text-15">
-                                <li className="my-2">
+                                {/*<li className="my-2">
                                     <div className="d-flex">
                                         <i className="me-2"><FaInstagram/></i>
                                         @pemdeskrisik.pudak
                                     </div>
-                                </li>
+                                </li>*/}
                                 <li className="my-2">
                                     <i className="me-2"><FaPhoneAlt/></i>
                                     085784721501
@@ -127,8 +127,8 @@ export default function Footer() {
                             <a href="https://www.youtube.com/@pkkakademiadesakrisik" className="mx-2 text-white-80" aria-label="Youtube" rel="noreferrer" target="_blank">
                                 <i className=""><FaYoutube /></i>
                             </a>
-                            <a href="https://www.instagram.com/" className="mx-2 text-white-80" aria-label="Instagram" rel="noreferrer" target="_blank">
-                                <i className=""><FaInstagram /></i>
+                            <a href="https://wa.me/6285784721501" className="mx-2 text-white-80" aria-label="Instagram" rel="noreferrer" target="_blank">
+                                <i className=""><FaPhoneAlt/></i>
                             </a>
                         </div>
                     </div>
