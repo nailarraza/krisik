@@ -106,7 +106,7 @@ export default function NavBarTop() {
                 </a>
                 <span className="mx-2 text-black-50">|</span>
                 <a
-                  href="mailto:pemdeskrisik@gmail.com"
+                  href="mailto:adminpusat@krisikpudak.com"
                   rel="noreferrer"
                   target="_blank"
                   className="text-decoration-none text-14 text-color-tertiary"
