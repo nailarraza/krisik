@@ -284,7 +284,7 @@ export default function Home({ posts, agendas, videos, photos }) {
             <Swiper
               className="swiper-custom"
               spaceBetween={24}
-              slidesPerView={6}
+              slidesPerView={3}
               breakpoints={{
                 320: {
                   slidesPerView: 1,
